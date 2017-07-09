@@ -6,16 +6,16 @@ In this repository, source codes will be shared while capturing "TensorFlow 101:
 Video set: https://www.youtube.com/playlist?list=PLsS_1RYmYQQEzDLYg0MiKvcB19J0f4FJI
 Channel: https://www.youtube.com/SefikIlkinSerengil
 
-Course content:
+# Course content:
 
-Installing TensorFlow and Prerequisites (https://youtu.be/xY8NAxD37mc )
+1- Installing TensorFlow and Prerequisites (https://youtu.be/xY8NAxD37mc )
 
-Hello, TensorFlow! Building Deep Neural Networks Classifier Model (https://youtu.be/7i9l32xW1JQ )
+2- Hello, TensorFlow! Building Deep Neural Networks Classifier Model (https://youtu.be/7i9l32xW1JQ )
 
-Restoring and Working on Already Trained Deep Neural Networks In TensorFlow (https://youtu.be/hvRy4I8AueM )
+3- Restoring and Working on Already Trained Deep Neural Networks In TensorFlow (https://youtu.be/hvRy4I8AueM )
 
-Importing Saved TensorFlow DNN Classifier Model in Java (https://youtu.be/THl3jp-E5t0 )
+4- Importing Saved TensorFlow DNN Classifier Model in Java (https://youtu.be/THl3jp-E5t0 )
 
-Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard (https://youtu.be/zHrrBbOSaZM )
+5- Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard (https://youtu.be/zHrrBbOSaZM )
 
-Building a DNN Regressor for Non-Linear Time Series in TensorFlow (https://youtu.be/DXN4RwKW1ow )
+6- Building a DNN Regressor for Non-Linear Time Series in TensorFlow (https://youtu.be/DXN4RwKW1ow )
