@@ -6,7 +6,7 @@ In this repository, source codes will be shared while capturing "TensorFlow 101:
 Video set: https://www.youtube.com/playlist?list=PLsS_1RYmYQQEzDLYg0MiKvcB19J0f4FJI
 Channel: https://www.youtube.com/SefikIlkinSerengil
 
-# Course content:
+# Course content
 
 1- Installing TensorFlow and Prerequisites (https://youtu.be/xY8NAxD37mc )
 
