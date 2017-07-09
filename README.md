@@ -1,5 +1,4 @@
-# tensorflow-101
-Introduction to TensorFlow
+# TensorFlow 101: Introduction to TensorFlow
 
 In this repository, source codes will be shared while capturing "TensorFlow 101: Introduction to TensorFlow"
 
