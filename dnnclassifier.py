@@ -25,7 +25,9 @@ labels = [
 data = np.array(atributes, 'int64')
 target = np.array(labels, 'int64')
 
-feature_columns = [tf.contrib.layers.real_valued_column("", dimension=2, dtype=tf.float32)]
+feature_columns = [tf.contrib.layers.real_valued_column(""
+							, dimension=2 #attributes consist of two columns: x1 and x2.
+							, dtype=tf.float32)]
 
 learningRate = 0.1
 epoch = 10000
