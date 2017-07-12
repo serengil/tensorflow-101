@@ -32,7 +32,7 @@ epoch = 10000
 
 #----------------------------
 
-feature_columns = [tf.contrib.layers.real_valued_column("")]
+feature_columns = [tf.contrib.layers.real_valued_column("", dimension = col-1)]
 
 #neural network model
 regressor = tf.contrib.learn.DNNRegressor(
