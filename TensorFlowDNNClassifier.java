@@ -4,7 +4,7 @@ import org.tensorflow.SavedModelBundle;
 import org.tensorflow.Session;
 import org.tensorflow.Tensor;
 
-public class TensorFlowDNN {
+public class TensorFlowDNNClassifier {
 	
 	public static void main(String[] args) {
 		
