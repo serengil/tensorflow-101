@@ -54,7 +54,7 @@ regressor.fit(data, target, steps = epoch
 #this block provides to export nn model language neutrally. in this way, same model can be used in high level systems such as Java
 feature_spec = tf.contrib.layers.create_feature_spec_for_parsing(feature_columns)
 serving_input_fn = input_fn_utils.build_parsing_serving_input_fn(feature_spec)
-regressor.export_savedmodel(classifier.model_dir+"\export", serving_input_fn, as_text=True)
+regressor.export_savedmodel(regressor.model_dir+"\export", serving_input_fn, as_text=True)
 """
 
 def test_set():
