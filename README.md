@@ -19,3 +19,5 @@ Channel: https://www.youtube.com/SefikIlkinSerengil
 5- [Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard](https://youtu.be/zHrrBbOSaZM) -> dnnclassifier.py
 
 6- [Building a DNN Regressor for Non-Linear Time Series in TensorFlow](https://youtu.be/DXN4RwKW1ow) -> dnnregressor.py
+
+7- [Visualizing ML Results with Matplotlib and Embed them in TensorBoard](https://www.youtube.com/watch?v=IKYj7iPSWno) -> dnnregressor.py
