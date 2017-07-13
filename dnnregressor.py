@@ -1,6 +1,13 @@
 import tensorflow as tf
 import numpy as np
 
+from tensorflow.contrib.learn.python.learn.utils import input_fn_utils #export_savedmodel
+
+import matplotlib.pyplot as plt
+import io
+
+#----------------------------
+
 input = np.loadtxt("sine.csv", dtype='f', delimiter=',')
 #print(input)
 
@@ -97,3 +104,44 @@ for i in range(0, row):
 		
 	actual_writer.add_summary(actual_summary, i)
 	forecast_writer.add_summary(forecast_summary, i)
+
+#--------------------------
+
+"""
+#x-axis: time, y-axis:value. actual and forecast values are plotted as 2 line in same graph. 
+#this graph cannot be readable for displaying too many point
+plt.plot(actuals)
+plt.plot(forecasts)
+plt.show()
+"""
+
+"""
+#x-axis represents predicted values whereas y-axis represents actual values. 
+plt.scatter(actuals, forecasts)
+plt.xlabel('predicted')
+plt.ylabel('actual')
+plt.show()
+"""
+
+#----------------------------------
+#embedding matplotlib graph in TensorBoard
+
+def create_plot(actuals, forecasts):
+	plt.figure()
+	plt.scatter(actuals, forecasts)
+	buf = io.BytesIO()
+	plt.savefig(buf, format='png')
+	buf.seek(0)
+	return buf
+
+plot_buf = create_plot(actuals, forecasts)
+image = tf.image.decode_png(plot_buf.getvalue(), channels=4)
+image = tf.expand_dims(image, 0)
+
+summary_img = tf.summary.image("scatter_plot", image)
+
+sess = tf.Session()
+
+summary = sess.run(summary_img)
+writer = tf.summary.FileWriter('model/logs')
+writer.add_summary(summary)
