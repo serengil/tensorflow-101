@@ -14,7 +14,7 @@ Channel: https://www.youtube.com/SefikIlkinSerengil
 
 3- [Restoring and Working on Already Trained DNN In TensorFlow](https://youtu.be/hvRy4I8AueM) -> dnnclassifier.py
 
-4- [Importing Saved TensorFlow DNN Classifier Model in Java](https://youtu.be/THl3jp-E5t0) -> TensorFlowDNN.java
+4- [Importing Saved TensorFlow DNN Classifier Model in Java](https://youtu.be/THl3jp-E5t0) -> TensorFlowDNNClassifier.java
 
 5- [Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard](https://youtu.be/zHrrBbOSaZM) -> dnnclassifier.py
 
