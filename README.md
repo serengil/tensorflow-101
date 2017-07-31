@@ -6,6 +6,8 @@ Playlist: https://www.youtube.com/playlist?list=PLsS_1RYmYQQEzDLYg0MiKvcB19J0f4F
 
 Channel: https://www.youtube.com/SefikIlkinSerengil
 
+Post: https://sefiks.com/2017/07/11/hello-tensorflow/
+
 # Course content
 
 1- [Installing TensorFlow and Prerequisites](https://youtu.be/xY8NAxD37mc) -> no source code
