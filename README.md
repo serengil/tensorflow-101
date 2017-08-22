@@ -25,3 +25,9 @@ Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 7- [Visualizing ML Results with Matplotlib and Embed them in TensorBoard](https://www.youtube.com/watch?v=IKYj7iPSWno) -> python/DNNRegressor.py
 
 8- [Unsupervised learning and k-means clustering with TensorFlow](https://youtu.be/0XM7UlcbE0U) -> python/KMeansClustering.py
+
+9- [Applying k-means clustering to n-dimensional datasets in TensorFlow](https://youtu.be/9HEihI6XYws) -> python/KMeansClustering.py
+
+10- [Optimization Algorithms in TensorFlow](https://youtu.be/wM-qdl_6_qc) -> OptimizationAlgorithms.py
+
+11- [Activation Functions in TensorFlow](https://youtu.be/D7HUGBhBDQk) -> ActivationFunctions.py
