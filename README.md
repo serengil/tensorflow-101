@@ -8,6 +8,8 @@ Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
 # Course content
 
+The course consists of tens of lectures and includes 2 hours material.
+
 # Section 1 - Installing TensorFlow
 
 1- Installing TensorFlow and Prerequisites -> no source code
