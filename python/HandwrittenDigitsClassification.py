@@ -50,7 +50,7 @@ plt.imshow(X)
 plt.show()
 """
 #-----------------------------------------------
-def define_and_run_dnn_classifier(num_steps, logdir):
+def applyDNNClassifier(num_steps, logdir):
 	feature_columns = [tf.contrib.layers.real_valued_column("", dimension=len(MNIST_DATASET.train.images[1]))]
 	
 	classifier = tf.contrib.learn.DNNClassifier(
@@ -86,4 +86,4 @@ def define_and_run_dnn_classifier(num_steps, logdir):
 	
 #---------------------------------------------
 #main
-define_and_run_dnn_classifier(epoch, model_dir)
+applyDNNClassifier(epoch, model_dir)
