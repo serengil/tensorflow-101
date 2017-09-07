@@ -14,7 +14,7 @@ import math
 mnist_data = "C:/tmp/MNIST_data"
 model_dir = "C:/tmp/tfmodels/mnist_tflearn/"
 
-epoch = 500
+epoch = 5000
 learningRate = 0.1
 
 MNIST_DATASET = input_data.read_data_sets(mnist_data)
@@ -50,40 +50,35 @@ plt.imshow(X)
 plt.show()
 """
 #-----------------------------------------------
-def applyDNNClassifier(num_steps, logdir):
-	feature_columns = [tf.contrib.layers.real_valued_column("", dimension=len(MNIST_DATASET.train.images[1]))]
-	
-	classifier = tf.contrib.learn.DNNClassifier(
-		feature_columns=feature_columns,
-		n_classes=10, #0 to 9 - 10 classes
-		hidden_units=[128, 32],  #2 hidden layers consisting of 128 and 32 units respectively
-		optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=learningRate),
-		model_dir=logdir
-	)
-	
-	#classifier.fit(train_data, train_target, steps=num_steps)
-	print("\n---training is over...")
-	
-	"""
-	predictions = classifier.predict_classes(test_data)
-	index = 0
-	for i in predictions:
-		if index < 10:
-			print("actual: ", test_target[index], ", prediction: ", i)
-			
-			pred = MNIST_DATASET.test.images[index]
-			pred = pred.reshape([28, 28]);
-			plt.gray()
-			plt.imshow(pred)
-			plt.show()
-			
-		index  = index + 1
-	"""
-	
-	print("\n---evaluation...")
-	accuracy_score = classifier.evaluate(test_data, test_target, steps=100)['accuracy']
-	print("accuracy: ", 100*accuracy_score,"%")
-	
-#---------------------------------------------
-#main
-applyDNNClassifier(epoch, model_dir)
+feature_columns = [tf.contrib.layers.real_valued_column("", dimension=len(MNIST_DATASET.train.images[1]))]
+
+classifier = tf.contrib.learn.DNNClassifier(
+	feature_columns=feature_columns,
+	n_classes=10, #0 to 9 - 10 classes
+	hidden_units=[128, 32],  #2 hidden layers consisting of 128 and 32 units respectively
+	optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=learningRate),
+	model_dir=logdir
+)
+
+classifier.fit(train_data, train_target, steps=epoch)
+print("\n---training is over...")
+
+predictions = classifier.predict_classes(test_data)
+index = 0
+for i in predictions:
+	if index < 10:
+		print("actual: ", test_target[index], ", prediction: ", i)
+		
+		pred = MNIST_DATASET.test.images[index]
+		pred = pred.reshape([28, 28]);
+		plt.gray()
+		plt.imshow(pred)
+		plt.show()
+		
+	index  = index + 1
+
+"""
+print("\n---evaluation...")
+accuracy_score = classifier.evaluate(test_data, test_target, steps=100)['accuracy']
+print("accuracy: ", 100*accuracy_score,"%")
+"""
