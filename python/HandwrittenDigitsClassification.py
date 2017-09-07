@@ -11,8 +11,8 @@ import math
 
 #-----------------------------------------------
 #variables
-mnist_data = "C:/Users/IS96273/Desktop/tmp/MNIST_data"
-model_dir = "C:/Users/IS96273/Desktop/tmp/tfmodels/mnist_tflearn/"
+mnist_data = "C:/tmp/MNIST_data"
+model_dir = "C:/tmp/tfmodels/mnist_tflearn/"
 
 epoch = 500
 learningRate = 0.1
