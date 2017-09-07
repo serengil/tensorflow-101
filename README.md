@@ -2,32 +2,44 @@
 
 In this repository, source codes will be shared while capturing "TensorFlow 101: Introduction to TensorFlow"
 
-Playlist: https://www.youtube.com/playlist?list=PLsS_1RYmYQQEzDLYg0MiKvcB19J0f4FJI
-
-Channel: https://www.youtube.com/SefikIlkinSerengil
+Playlist: https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/
 
 Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
 # Course content
 
-1- [Installing TensorFlow and Prerequisites](https://youtu.be/xY8NAxD37mc) -> no source code
+# Section 1 - Installing TensorFlow
 
-2- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](https://youtu.be/7i9l32xW1JQ) -> python/DNNClassifier.py
+1- Installing TensorFlow and Prerequisites -> no source code
 
-3- [Restoring and Working on Already Trained DNN In TensorFlow](https://youtu.be/hvRy4I8AueM) -> python/DNNClassifier.py
+2- Installing Keras -> no source code
 
-4- [Importing Saved TensorFlow DNN Classifier Model in Java](https://youtu.be/THl3jp-E5t0) -> java/TensorFlowDNNClassifier.java
+# Section 2 - Building Supervised Learning Models
 
-5- [Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard](https://youtu.be/zHrrBbOSaZM) -> python/DNNClassifier.py
+1- Hello, TensorFlow! Building Deep Neural Networks Classifier Model -> python/DNNClassifier.py
 
-6- [Building a DNN Regressor for Non-Linear Time Series in TensorFlow](https://youtu.be/DXN4RwKW1ow) -> python/DNNRegressor.py
+2- Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard -> python/DNNClassifier.py
 
-7- [Visualizing ML Results with Matplotlib and Embed them in TensorBoard](https://www.youtube.com/watch?v=IKYj7iPSWno) -> python/DNNRegressor.py
+3- Building a DNN Regressor for Non-Linear Time Series in TensorFlow -> python/DNNRegressor.py
 
-8- [Unsupervised learning and k-means clustering with TensorFlow](https://youtu.be/0XM7UlcbE0U) -> python/KMeansClustering.py
+4- Visualizing ML Results with Matplotlib and Embed them in TensorBoard -> python/DNNRegressor.py
 
-9- [Applying k-means clustering to n-dimensional datasets in TensorFlow](https://youtu.be/9HEihI6XYws) -> python/KMeansClustering.py
+5- Building DNN Classifier with Keras -> python/HelloKeras.py
 
-10- [Optimization Algorithms in TensorFlow](https://youtu.be/wM-qdl_6_qc) -> OptimizationAlgorithms.py
+# Section 3 - Reusability in TensorFlow
 
-11- [Activation Functions in TensorFlow](https://youtu.be/D7HUGBhBDQk) -> ActivationFunctions.py
+1- Restoring and Working on Already Trained DNN In TensorFlow -> python/DNNClassifier.py
+
+2- Importing Saved TensorFlow DNN Classifier Model in Java -> java/TensorFlowDNNClassifier.java
+
+# Section 4 - Building Unsupervised Learning Models
+
+1- Unsupervised learning and k-means clustering with TensorFlow -> python/KMeansClustering.py
+
+2- Applying k-means clustering to n-dimensional datasets in TensorFlow -> python/KMeansClustering.py
+
+# Section 5- Tuning Deep Neural Networks Models
+
+1- Optimization Algorithms in TensorFlow -> python/OptimizationAlgorithms.py
+
+2- Activation Functions in TensorFlow -> python/ActivationFunctions.py
