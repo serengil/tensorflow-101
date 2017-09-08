@@ -8,13 +8,11 @@ Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
 # Course content
 
-The course consists of tens of lectures and includes 2 hours material.
+The course consists of 14 lectures and includes 2.5 hours material.
 
 # Section 1 - Installing TensorFlow
 
 1- Installing TensorFlow and Prerequisites -> no source code
-
-2- Installing Keras -> no source code
 
 # Section 2 - Building Supervised Learning Models
 
@@ -25,8 +23,6 @@ The course consists of tens of lectures and includes 2 hours material.
 3- Building a DNN Regressor for Non-Linear Time Series in TensorFlow -> python/DNNRegressor.py
 
 4- Visualizing ML Results with Matplotlib and Embed them in TensorBoard -> python/DNNRegressor.py
-
-5- Building DNN Classifier with Keras -> python/HelloKeras.py
 
 # Section 3 - Reusability in TensorFlow
 
@@ -45,3 +41,13 @@ The course consists of tens of lectures and includes 2 hours material.
 1- Optimization Algorithms in TensorFlow -> python/OptimizationAlgorithms.py
 
 2- Activation Functions in TensorFlow -> python/ActivationFunctions.py
+
+# Section 6 -Real World Applications
+
+1- Handwritten Digit Classification -> python/HandwrittenDigitsClassification.py
+
+# Section 7 - Keras
+
+1- Installing Keras -> no source code
+
+2- Building DNN Classifier with Keras -> python/HelloKeras.py
