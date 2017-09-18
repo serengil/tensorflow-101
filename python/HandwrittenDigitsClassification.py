@@ -57,7 +57,7 @@ classifier = tf.contrib.learn.DNNClassifier(
 	n_classes=10, #0 to 9 - 10 classes
 	hidden_units=[128, 32],  #2 hidden layers consisting of 128 and 32 units respectively
 	optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=learningRate),
-	model_dir=logdir
+	model_dir="model"
 )
 
 classifier.fit(train_data, train_target, steps=epoch)
