@@ -1,7 +1,8 @@
-#this code classifies handwritten digits 
-#also known as MNIST - Modified National Institute of Standards and Technology database
+#This code classifies handwritten digits 
+#Also known as MNIST - Modified National Institute of Standards and Technology database
 
-#this configuration produced 97.83% accuracy for test set whereas it produced 99.77% accuracy for trainset. Producing close accuracy rates is expected for re-run (random initialization causes to produce different results each time)
+#This configuration produced 97.83% accuracy for test set whereas it produced 99.77% accuracy for trainset. 
+#Producing close accuracy rates is expected for re-run (random initialization causes to produce different results each time)
 
 #-----------------------------------------------
 
