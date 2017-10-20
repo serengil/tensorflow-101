@@ -12,14 +12,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-#tf.logging.set_verbosity(tf.logging.INFO)
+tf.logging.set_verbosity(tf.logging.INFO)
 
 #-----------------------------------------------
 #variables
-mnist_data = "C:/tmp/MNIST_data"
 
 epoch = 15000
 learningRate = 0.1
+
+mnist_data = "C:/tmp/MNIST_data"
+
+trainForRandomSet = True
+
+#-----------------------------------------------
+#data process and transformation
 
 MNIST_DATASET = input_data.read_data_sets(mnist_data)
 
@@ -68,26 +74,28 @@ classifier = tf.contrib.learn.DNNClassifier(
 #----------------------------------------
 #training
 
-#train on all trainset
-#classifier.fit(train_data, train_target, steps=epoch)
-
-def generate_input_fn(data, label):	
-	image_batch, label_batch = tf.train.shuffle_batch(
-		[data, label]
-		, batch_size=batch_size
-		, capacity=8*batch_size
-		, min_after_dequeue=4*batch_size
-		, enqueue_many=True
-	)
-	return image_batch, label_batch
-
-
-#train on small random selected dataset
-classifier.fit(input_fn=generate_input_fn(train_data, train_target), steps=epoch)
+if trainForRandomSet == False:
+	#train on all trainset
+	classifier.fit(train_data, train_target, steps=epoch)
+else:
+	def generate_input_fn(data, label):	
+		image_batch, label_batch = tf.train.shuffle_batch(
+			[data, label]
+			, batch_size=batch_size
+			, capacity=8*batch_size
+			, min_after_dequeue=4*batch_size
+			, enqueue_many=True
+		)
+		return image_batch, label_batch
+	
+	
+	#train on small random selected dataset
+	classifier.fit(input_fn=generate_input_fn(train_data, train_target), steps=epoch)
 
 print("\n---training is over...")
 
 #----------------------------------------
+#apply to make predictions
 
 predictions = classifier.predict_classes(test_data)
 index = 0
@@ -104,6 +112,7 @@ for i in predictions:
 	index  = index + 1
 
 #----------------------------------------
+#calculationg overall accuracy
 
 print("\n---evaluation...")
 accuracy_score = classifier.evaluate(test_data, test_target, steps=100)['accuracy']
