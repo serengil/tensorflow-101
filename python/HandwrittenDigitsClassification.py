@@ -100,7 +100,7 @@ print("\n---training is over...")
 predictions = classifier.predict_classes(test_data)
 index = 0
 for i in predictions:
-	if index < 10:
+	if index < 10: #visualize first 10 items on test set
 		print("actual: ", test_target[index], ", prediction: ", i)
 		
 		pred = MNIST_DATASET.test.images[index]
