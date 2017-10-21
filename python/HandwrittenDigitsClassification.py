@@ -19,6 +19,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 epoch = 15000
 learningRate = 0.1
+batch_size = 40
 
 mnist_data = "C:/tmp/MNIST_data"
 
