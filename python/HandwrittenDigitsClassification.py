@@ -69,6 +69,7 @@ classifier = tf.contrib.learn.DNNClassifier(
 	, hidden_units=[128, 32]  #2 hidden layers consisting of 128 and 32 units respectively
 	, optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=learningRate)
 	, activation_fn = tf.nn.relu
+	#, activation_fn = tf.nn.softmax
 	, model_dir="model"
 )
 
@@ -89,9 +90,11 @@ else:
 		)
 		return image_batch, label_batch
 	
+	def input_fn_for_train():
+		return generate_input_fn(train_data, train_target)
 	
 	#train on small random selected dataset
-	classifier.fit(input_fn=generate_input_fn(train_data, train_target), steps=epoch)
+	classifier.fit(input_fn=input_fn_for_train, steps=epoch)
 
 print("\n---training is over...")
 
@@ -116,6 +119,6 @@ for i in predictions:
 #calculationg overall accuracy
 
 print("\n---evaluation...")
-accuracy_score = classifier.evaluate(test_data, test_target, steps=100)['accuracy']
+accuracy_score = classifier.evaluate(test_data, test_target, steps=epoch)['accuracy']
 print("accuracy: ", 100*accuracy_score,"%")
 
