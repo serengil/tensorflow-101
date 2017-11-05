@@ -1,8 +1,10 @@
 #This code classifies handwritten digits 
 #Also known as MNIST - Modified National Institute of Standards and Technology database
 
-#This configuration produced 97.83% accuracy for test set whereas it produced 99.77% accuracy for trainset. 
+#This configuration produced 98.01% accuracy for test set whereas it produced 99.77% accuracy for trainset. 
 #Producing close accuracy rates is expected for re-run (random initialization causes to produce different results each time)
+
+#blog post: https://sefiks.com/2017/09/11/handwritten-digit-classification-with-tensorflow/
 
 #-----------------------------------------------
 
@@ -19,7 +21,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 epoch = 15000
 learningRate = 0.1
-batch_size = 40
+batch_size = 120
 
 mnist_data = "C:/tmp/MNIST_data"
 
