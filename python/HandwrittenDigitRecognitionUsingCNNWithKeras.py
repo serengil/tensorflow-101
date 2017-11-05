@@ -2,6 +2,8 @@
 #It consumes Keras API, uses TensorFlow as backend
 #It produces 99.29% accuracy on test set
 
+#blog post: https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/
+
 #---------------------------------------
 import keras
 from keras.datasets import mnist
