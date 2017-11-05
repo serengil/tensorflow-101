@@ -1,6 +1,6 @@
 #This program applies convolutional neural networks to handwritten digit dataset (MNIST)
 #It consumes Keras API, uses TensorFlow as backend
-#It produces 99% accuracy on test set
+#It produces 99.29% accuracy on test set
 
 #---------------------------------------
 import keras
