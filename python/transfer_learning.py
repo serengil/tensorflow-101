@@ -28,7 +28,7 @@ else:
 #print("model structure: ", model.summary())
 #print("model weights: ", model.get_weights())
 
-#put images in testset folder named 1.jpg to 16.jpg
+#put images in testset folder, name images from 1.jpg to 16.jpg
 for i in range(1, 17):
 	
 	img_path = 'testset/%s.jpg' % (i)
