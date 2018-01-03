@@ -124,11 +124,12 @@ else:
 	model.load_weights('/data/facial_expression_model_weights.h5') #load weights
 	
 #------------------------------
+"""
 #overall evaluation
 score = model.evaluate(x_test, y_test)
 print('Test loss:', score[0])
 print('Test accuracy:', 100*score[1])
-
+"""
 #------------------------------
 #function for drawing bar chart for emotion preditions
 def emotion_analysis(emotions):
