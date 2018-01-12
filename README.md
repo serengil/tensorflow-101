@@ -14,40 +14,51 @@ The course consists of 14 lectures and includes 2.5 hours material.
 
 1- Installing TensorFlow and Prerequisites -> no source code
 
-# Section 2 - Building Supervised Learning Models
+2- Jupyter notebook -> no source code
 
-1- Hello, TensorFlow! Building Deep Neural Networks Classifier Model -> python/DNNClassifier.py
+3- Hello, TensorFlow! Building Deep Neural Networks Classifier Model -> python/DNNClassifier.py
 
-2- Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard -> python/DNNClassifier.py
-
-3- Building a DNN Regressor for Non-Linear Time Series in TensorFlow -> python/DNNRegressor.py
-
-4- Visualizing ML Results with Matplotlib and Embed them in TensorBoard -> python/DNNRegressor.py
-
-# Section 3 - Reusability in TensorFlow
+# Section 2 - Reusability in TensorFlow
 
 1- Restoring and Working on Already Trained DNN In TensorFlow -> python/DNNClassifier.py
 
 2- Importing Saved TensorFlow DNN Classifier Model in Java -> java/TensorFlowDNNClassifier.java
 
-# Section 4 - Building Unsupervised Learning Models
+# Section 3 - Monitoring and Evaluating
+
+1- Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard -> python/DNNClassifier.py
+
+# Section 4 - Building regression and time series models
+
+1- Building a DNN Regressor for Non-Linear Time Series in TensorFlow -> python/DNNRegressor.py
+
+2- Visualizing ML Results with Matplotlib and Embed them in TensorBoard -> python/DNNRegressor.py
+
+# Section 5 - Building Unsupervised Learning Models
 
 1- Unsupervised learning and k-means clustering with TensorFlow -> python/KMeansClustering.py
 
 2- Applying k-means clustering to n-dimensional datasets in TensorFlow -> python/KMeansClustering.py
 
-# Section 5- Tuning Deep Neural Networks Models
+# Section 6- Tuning Deep Neural Networks Models
 
 1- Optimization Algorithms in TensorFlow -> python/OptimizationAlgorithms.py
 
 2- Activation Functions in TensorFlow -> python/ActivationFunctions.py
 
-# Section 6 -Real World Applications
-
-1- Handwritten Digit Classification -> python/HandwrittenDigitsClassification.py
-
-# Section 7 - Keras
+# Section 7 - Consuming TensorFlow via Keras
 
 1- Installing Keras -> no source code
 
 2- Building DNN Classifier with Keras -> python/HelloKeras.py
+
+3- Storing and restoring a trained neural networks model with Keras -> python/KerasModelRestoration.py
+
+# Section 8- Advanced Applications
+
+1- Handwritten Digit Classification Using Neural Networks -> python/HandwrittenDigitsClassification.py
+
+2- Handwritten Digit Recognition Using Convolutional Neural Networks with Keras -> python/HandwrittenDigitRecognitionUsingCNNWithKeras.py
+
+3- Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras -> python/transfer_learning.py
+
