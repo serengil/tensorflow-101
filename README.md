@@ -12,11 +12,11 @@ The course consists of 14 lectures and includes 2.5 hours material.
 
 # Section 1 - Installing TensorFlow
 
-1- Installing TensorFlow and Prerequisites -> no source code
+1- Installing TensorFlow and Prerequisites
 
-2- Jupyter notebook -> no source code
+2- Jupyter notebook
 
-3- Hello, TensorFlow! Building Deep Neural Networks Classifier Model -> python/DNNClassifier.py
+3- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](tensorflow-101/python/DNNClassifier.py)
 
 # Section 2 - Reusability in TensorFlow
 
