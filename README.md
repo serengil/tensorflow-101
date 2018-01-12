@@ -40,7 +40,7 @@ The course consists of 15 lectures and includes 3 hours material.
 
 2- [Applying k-means clustering to n-dimensional datasets in TensorFlow](python/KMeansClustering.py)
 
-# Section 6- Tuning Deep Neural Networks Models
+# Section 6 - Tuning Deep Neural Networks Models
 
 1- [Optimization Algorithms in TensorFlow](python/OptimizationAlgorithms.py)
 
@@ -54,7 +54,7 @@ The course consists of 15 lectures and includes 3 hours material.
 
 3- [Storing and restoring a trained neural networks model with Keras](python/KerasModelRestoration.py)
 
-# Section 8- Advanced Applications
+# Section 8 - Advanced Applications
 
 1- [Handwritten Digit Classification Using Neural Networks](python/HandwrittenDigitsClassification.py)
 
