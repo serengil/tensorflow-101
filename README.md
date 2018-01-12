@@ -8,7 +8,7 @@ Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
 # Course content
 
-The course consists of 14 lectures and includes 2.5 hours material.
+The course consists of 15 lectures and includes 3 hours material.
 
 # Section 1 - Installing TensorFlow
 
