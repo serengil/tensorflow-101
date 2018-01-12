@@ -16,7 +16,7 @@ The course consists of 14 lectures and includes 2.5 hours material.
 
 2- Jupyter notebook
 
-3- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](tensorflow-101/python/DNNClassifier.py)
+3- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](python/DNNClassifier.py)
 
 # Section 2 - Reusability in TensorFlow
 
