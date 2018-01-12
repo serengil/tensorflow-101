@@ -2,13 +2,13 @@
 
 In this repository, source codes will be shared while capturing "TensorFlow 101: Introduction to TensorFlow"
 
-Playlist: https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/
+Playlist: https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710
 
 Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
 # Course content
 
-The course consists of 15 lectures and includes 3 hours material.
+The course consists of 18 lectures and includes 3 hours material.
 
 # Section 1 - Installing TensorFlow
 
