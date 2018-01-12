@@ -12,9 +12,9 @@ The course consists of 15 lectures and includes 3 hours material.
 
 # Section 1 - Installing TensorFlow
 
-1- Installing TensorFlow and Prerequisites
+1- [Installing TensorFlow and Prerequisites](https://www.youtube.com/watch?v=JeR2M46tLlE)
 
-2- Jupyter notebook
+2- [Jupyter notebook](https://www.youtube.com/watch?v=W3IJfVL1upI)
 
 3- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](python/DNNClassifier.py)
 
@@ -48,7 +48,7 @@ The course consists of 15 lectures and includes 3 hours material.
 
 # Section 7 - Consuming TensorFlow via Keras
 
-1- Installing Keras
+1- [Installing Keras](https://www.youtube.com/watch?v=qx5pivWvKC8)
 
 2- [Building DNN Classifier with Keras](python/HelloKeras.py)
 
