@@ -57,20 +57,25 @@ The course consists of 18 lectures and includes 3 hours material.
 # Section 8 - Advanced Applications
 
 1- [Handwritten Digit Classification Using Neural Networks](python/HandwrittenDigitsClassification.py)
+
 [Additional Tutorial](https://sefiks.com/2017/09/11/handwritten-digit-classification-with-tensorflow/)
 
 2- [Handwritten Digit Recognition Using Convolutional Neural Networks with Keras](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py)
+
 [Additional Tutorial](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/)
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py)
+
 [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/)
 
 # Unrecorded lectures
 
 1- [Facial Expression Recognition Including Training and Testing on a image](python/facial-expression-recognition.py)
+
 [Additional Tutorial] (https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
 2- [Facial Expression Recognition Including Stream Data and Webcam](python/facial-expression-recognition-from-stream.py)
+
 [Additional Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/)
 
 3- [How single layer perceptron works](python/single-layer-perceptron.py)
