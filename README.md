@@ -62,3 +62,10 @@ The course consists of 18 lectures and includes 3 hours material.
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py)
 
+# Unrecorded lectures
+
+1- Facial Expression Recognition Including Training and Testing on a image (python/facial-expression-recognition.py)
+
+2- Facial Expression Recognition Including Stream Data and Webcam (python/facial-expression-recognition-from-stream.py)
+
+3- How single layer perceptron works (python/single-layer-perceptron.py)
