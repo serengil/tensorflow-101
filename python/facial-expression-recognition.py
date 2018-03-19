@@ -41,21 +41,23 @@ x_train, y_train, x_test, y_test = [], [], [], []
 #------------------------------
 #transfer train and test set data
 for i in range(1,num_of_instances):
-    
-    emotion, img, usage = lines[i].split(",")
-      
-    val = img.split(" ")
+    try:
+        emotion, img, usage = lines[i].split(",")
+          
+        val = img.split(" ")
+            
+        pixels = np.array(val, 'float32')
         
-    pixels = np.array(val, 'float32')
-        
-    emotion = keras.utils.to_categorical(emotion, num_classes)
+        emotion = keras.utils.to_categorical(emotion, num_classes)
     
-    if 'Training' in usage:
-        y_train.append(emotion)
-        x_train.append(pixels)
-    elif 'PublicTest' in usage:
-        y_test.append(emotion)
-        x_test.append(pixels)
+        if 'Training' in usage:
+            y_train.append(emotion)
+            x_train.append(pixels)
+        elif 'PublicTest' in usage:
+            y_test.append(emotion)
+            x_test.append(pixels)
+    except:
+	print("",end="")
 
 #------------------------------
 #data transformation for train and test sets
