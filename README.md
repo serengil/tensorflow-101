@@ -72,7 +72,7 @@ The course consists of 18 lectures and includes 3 hours material.
 
 1- [Facial Expression Recognition Including Training and Testing on a image](python/facial-expression-recognition.py)
 
-[Additional Tutorial] (https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
+[Additional Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
 2- [Facial Expression Recognition Including Stream Data and Webcam](python/facial-expression-recognition-from-stream.py)
 
@@ -81,5 +81,7 @@ The course consists of 18 lectures and includes 3 hours material.
 3- [How single layer perceptron works](python/single-layer-perceptron.py)
 
 4- [Autoencoder and clustering](python/Autoencoder.ipynb)
+
+[Additional Tutorial](https://sefiks.com/2018/03/21/autoencoder-neural-networks-for-unsupervised-learning/)
 
 5- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb)
