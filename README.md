@@ -79,3 +79,7 @@ The course consists of 18 lectures and includes 3 hours material.
 [Additional Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/)
 
 3- [How single layer perceptron works](python/single-layer-perceptron.py)
+
+4- [Autoencoder and clustering](python/Autoencoder.ipynb)
+
+5- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb)
