@@ -64,9 +64,7 @@ The course consists of 18 lectures and includes 3 hours material.
 
 [Additional Tutorial](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/)
 
-3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py)
-
-[Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/)
+3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
 # Unrecorded lectures
 
