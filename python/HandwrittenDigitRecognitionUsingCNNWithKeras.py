@@ -81,9 +81,31 @@ model.compile(loss='categorical_crossentropy'
 model.fit_generator(train_generator, steps_per_epoch=batch_size, epochs=epochs, 
 	validation_data=(x_test, y_test) #validate on all test set
 )
-
+model.save("model.hdf5")
 #---------------------------------------
 
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', 100*score[1])
+
+#---------------------------------------
+model = load_model("model.hdf5")
+
+predictions = model.predict(x_test)
+
+#display wrongly classified instances
+index = 0
+for i in predictions:
+	if index < 10000:
+		actual = np.argmax(y_test[index])
+		pred = np.argmax(i)
+		
+		if actual != pred:
+			print("predict: ",pred," actual: ",actual)
+			picture = x_test[index]
+			picture = picture.reshape([28, 28]);
+			plt.gray()
+			plt.imshow(picture)
+			plt.show()
+		
+	index = index + 1
