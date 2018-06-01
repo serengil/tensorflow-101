@@ -40,11 +40,11 @@ feature_columns = [tf.contrib.layers.real_valued_column("", dimension=len(MNIST_
 classifier = tf.contrib.learn.DNNClassifier(
 	feature_columns=feature_columns
 	, n_classes=10 #0 to 9 - 10 classes
-	, hidden_units=[128, 64, 32, 16]  #2 hidden layers consisting of 128 and 32 units respectively
+	, hidden_units=[128, 64, 32, 16]  #4 hidden layers consisting of 128, 64, 32, 16 units respectively
 	#, optimizer=tf.train.ProximalAdagradOptimizer(learning_rate=learningRate)
 	, optimizer=tf.train.GradientDescentOptimizer(learning_rate=learningRate)
-	, activation_fn = tf.nn.sigmoid
-	#, activation_fn = tf.nn.relu
+	, activation_fn = tf.nn.sigmoid #activate this to see vanishing gradient
+	#, activation_fn = tf.nn.relu #activate this to solve gradient vanishing problem
 )
 
 #----------------------------------------
