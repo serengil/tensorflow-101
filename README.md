@@ -72,4 +72,10 @@ The course consists of 18 lectures and includes 3 hours material.
 
 4- [Autoencoder and clustering](python/Autoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/21/autoencoder-neural-networks-for-unsupervised-learning/) )
 
-5- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb)
+5- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/23/convolutional-autoencoder-clustering-images-with-neural-networks/) )
+
+6- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
+
+7- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
+
+8- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
