@@ -1,3 +1,6 @@
+#author Sefik Ilkin Serengil
+#you can find the documentation of this code from the following link: https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/
+
 import numpy as np
 import cv2
 
@@ -11,6 +14,8 @@ import matplotlib.pyplot as plt
 
 from os import listdir
 #-----------------------
+
+color = (67,67,67)
 
 face_cascade = cv2.CascadeClassifier('C:/Users/IS96273/AppData\Local/Continuum/anaconda3/pkgs/opencv-3.3.1-py35h20b85fd_1/Library/etc/haarcascades/haarcascade_frontalface_default.xml')
 
@@ -67,6 +72,7 @@ def loadVggFaceModel():
 	model.add(Flatten())
 	model.add(Activation('softmax'))
 	
+	#you can download pretrained weights from https://drive.google.com/file/d/1CPSeum3HpopfomUEK1gybeuIVoeJT_Eo/view?usp=sharing
 	from keras.models import model_from_json
 	model.load_weights('C:/Users/IS96273/Desktop/vgg_face_weights.h5')
 	
@@ -125,12 +131,17 @@ while(True):
 				
 				similarity = findCosineSimilarity(representation, captured_representation)
 				if(similarity < 0.30):
-					cv2.putText(img, employee_name, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
+					cv2.putText(img, employee_name, (int(x+w+15), int(y-12)), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
+					
 					found = 1
 					break
+					
+			#connect face and text
+			cv2.line(img,(int((x+x+w)/2),y+15),(x+w,y-20),color,1)
+			cv2.line(img,(x+w,y-20),(x+w+10,y-20),color,1)
 		
 		if(found == 0): #if found image is not in employee database
-			cv2.putText(img, 'unknown', (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
+			cv2.putText(img, 'unknown', (int(x+w+15), int(y-12)), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
 	
 	cv2.imshow('img',img)
 	
