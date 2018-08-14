@@ -140,8 +140,8 @@ while(True):
 			cv2.line(img,(int((x+x+w)/2),y+15),(x+w,y-20),color,1)
 			cv2.line(img,(x+w,y-20),(x+w+10,y-20),color,1)
 		
-		if(found == 0): #if found image is not in employee database
-			cv2.putText(img, 'unknown', (int(x+w+15), int(y-12)), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
+			if(found == 0): #if found image is not in employee database
+				cv2.putText(img, 'unknown', (int(x+w+15), int(y-12)), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
 	
 	cv2.imshow('img',img)
 	
