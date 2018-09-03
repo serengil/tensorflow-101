@@ -78,6 +78,8 @@ The course consists of 18 lectures and includes 3 hours material.
 
 7- [Real Time Deep Face Recognition Implementation with VGG-Face](python/deep-face-real-time.py) ( [Demo](https://www.youtube.com/watch?v=tSU_lNi0gQQ) )
 
-8- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
+8- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Additional Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
 
-9- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
+9- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
+
+10- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
