@@ -2,7 +2,7 @@
 
 In this repository, source codes will be shared while capturing "TensorFlow 101: Introduction to Deep Learning" online course published on Udemy.
 
-Course: https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710
+Course: https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710 **(90% OFF over regular price)**
 
 Post: https://sefiks.com/2017/07/11/hello-tensorflow/
 
