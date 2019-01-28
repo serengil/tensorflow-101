@@ -1,6 +1,6 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-This repository includes the source codes and notebooks while I capturing **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy. Some implementations might have dedicated documentations linked to my personal blog.
+This repository includes the source codes and notebooks (mostly) while I capturing **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy. Some implementations might have dedicated documentations linked to my personal blog.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
