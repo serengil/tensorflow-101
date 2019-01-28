@@ -62,6 +62,10 @@ The course consists of 18 lectures and includes 3 hours material.
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
+<p align="center">
+  <img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png">
+</p>
+
 # Unrecorded lectures
 
 1- [Facial Expression Recognition Including Training and Testing on a image](python/facial-expression-recognition.py) ( [Additional Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
