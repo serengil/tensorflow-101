@@ -1,5 +1,7 @@
 # TensorFlow 101: Introduction to Deep Learning
 
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png"></p>
+
 In this repository, source codes will be shared while capturing ["TensorFlow 101: Introduction to Deep Learning"](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710) online course published on Udemy.
 
 # Course content
@@ -88,6 +90,6 @@ The course consists of 18 lectures and includes 3 hours material.
 
 9- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
 
-<p align="center"><img src="https://i1.wp.com/sefiks.com/wp-content/uploads/2018/07/generated.png"></p>
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png"></p>
 
 10- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
