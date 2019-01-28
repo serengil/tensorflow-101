@@ -8,7 +8,7 @@ This repository includes the source codes and notebooks while I capturing **[Ten
 
 1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
-I developed a custom CNN model and fed kaggle FER 2013 data set. This model runs fast and produces satisfactory results.
+This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This model runs fast and produces satisfactory results.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
@@ -20,11 +20,13 @@ This is the adaptation of the same model to real time video.
 
 3- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
 
-Oxford Visual Geometry Group's VGG model is famous for confident scores on Imagenet contest. They retrain (almost) the same network structure for face recognition. This implementation is mainly based on convolutional neural networks, autoencoders and transfer learning. This is on the top of the leaderboard for face recognition.
+Oxford Visual Geometry Group's VGG model is famous for confident scores on Imagenet contest. They retrain (almost) the same network structure for face recognition. This implementation is mainly based on convolutional neural networks, autoencoders and transfer learning. This is on the top of the leaderboard for face recognition challenges.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
 4- [Real Time Deep Face Recognition Implementation with VGG-Face](python/deep-face-real-time.py) ( [Demo](https://www.youtube.com/watch?v=tSU_lNi0gQQ) )
+
+This is the real time implementation of VGG-Face model for face recognition.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-face-recognition-demo.png" width="70%" height="70%"></p>
 
@@ -102,10 +104,16 @@ We can adapt same representation approach to convolutional neural networks, too.
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
+We can have the outcomes of the other researchers effortlessly. Google researchers compete on Kaggle Imagenet competition. We will adapt Google's Inception V3 model to classify objects.
+
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
 
 # Additional Documents
 
 1- [How single layer perceptron works](python/single-layer-perceptron.py)
 
+This is 1957 model implementaion of perceptron.
+
 2- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
+
+Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
