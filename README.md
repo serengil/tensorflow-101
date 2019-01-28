@@ -8,13 +8,19 @@ This repository includes the source codes and notebooks while I capturing **[Ten
 
 1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
+I developed a custom CNN model and fed kaggle FER 2013 data set. This model runs fast and produces satisfactory results.
+
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
 2- [Real Time Facial Expression Recognition](python/facial-expression-recognition-from-stream.py) ( [Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/) )
 
+This is the adaptation of the same model to real time video.
+
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
 3- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
+
+Oxford Visual Geometry Group's VGG model is famous for confident scores on Imagenet contest. They retrain (almost) the same network structure for face recognition. This implementation is mainly based on convolutional neural networks, autoencoders and transfer learning. This is on the top of the leaderboard for face recognition.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
@@ -24,15 +30,23 @@ This repository includes the source codes and notebooks while I capturing **[Ten
 
 5- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
 
+This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face.
+
 6- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
+
+What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named artistic style transfer enables to transform ordinary images to masterpieces.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
 7- [Autoencoder and clustering](python/Autoencoder.ipynb) ( [Tutorial](https://sefiks.com/2018/03/21/autoencoder-neural-networks-for-unsupervised-learning/) )
 
+We can use neural networks to represent data. If you design a neural networks model symmetric about the centroid and you can restore a base data with an acceptable loss, then output of the centroid layer can represent the base data. Representations can contribute any field of deep learning such as face recognition or style transfer.
+
 <p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2018/03/autoencoder-and-autodecoder.png" width="70%" height="70%"></p>
 
 8- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb) ( [Tutorial](https://sefiks.com/2018/03/23/convolutional-autoencoder-clustering-images-with-neural-networks/) )
+
+We can adapt same representation approach to convolutional neural networks, too.
 
 # Section 1 - Installing TensorFlow
 
