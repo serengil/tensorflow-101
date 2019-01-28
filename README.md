@@ -4,6 +4,8 @@ This repository includes the source codes and notebooks while I capturing **[Ten
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
+<p align="center">Vincent van Gogh style Galatasaray University</p>
+
 # Deep Learning Applications
 
 1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
@@ -116,7 +118,7 @@ We can have the outcomes of the other researchers effortlessly. Google researche
 
 1- [How single layer perceptron works](python/single-layer-perceptron.py)
 
-This is 1957 model implementaion of perceptron.
+This is the 1957 model implementation of the perceptron.
 
 2- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
 
