@@ -64,7 +64,11 @@ We can adapt same representation approach to convolutional neural networks, too.
 
 1- [Restoring and Working on Already Trained DNN In TensorFlow](python/DNNClassifier.py)
 
+The costly operation in neural networks is learning. You may spent hours to train a neural networks model. On the other hand, you can run the model in seconds after training. We'll mention how to store trained models and restore them.
+
 2- [Importing Saved TensorFlow DNN Classifier Model in Java](java/TensorFlowDNNClassifier.java)
+
+You can handle training with TensorFlow in Python and you can call this trained model from Java on your production pipeline.
 
 # Section 3 - Monitoring and Evaluating
 
