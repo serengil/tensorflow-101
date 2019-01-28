@@ -98,13 +98,17 @@ We can adapt same representation approach to convolutional neural networks, too.
 
 1- [Handwritten Digit Classification Using Neural Networks](python/HandwrittenDigitsClassification.py) ( [Tutorial](https://sefiks.com/2017/09/11/handwritten-digit-classification-with-tensorflow/) )
 
+We had to apply feature extraction on data sets to use neural networks. Deep learning enables to skip this step. We just feed the data, and deep neural networks can extract features on the data set. Here, we will feed handwritten digit data (MNIST) to deep neural networks, and expect to learn digits.
+
 <p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2017/09/mnist-sample-output.png" width="70%" height="70%"></p>
 
 2- [Handwritten Digit Recognition Using Convolutional Neural Networks with Keras](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py) ( [Tutorial](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/) )
 
+Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
+
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
-We can have the outcomes of the other researchers effortlessly. Google researchers compete on Kaggle Imagenet competition. We will adapt Google's Inception V3 model to classify objects.
+We can have the outcomes of the other researchers effortlessly. Google researchers compete on Kaggle Imagenet competition. They got 97% accuracy. We will adapt Google's Inception V3 model to classify objects.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
 
