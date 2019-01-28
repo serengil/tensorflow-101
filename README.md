@@ -1,16 +1,16 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-This repository includes the source codes and documentations while I capturing [TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710) online course published on Udemy.
+This repository includes the source codes and notebooks while I capturing **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy. Some implementations might have dedicated documentations linked to my personal blog.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
 # Deep Learning Applications
 
-1- [Facial Expression Recognition Including Training and Testing on a image](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
+1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
-2- [Facial Expression Recognition Including Stream Data and Webcam](python/facial-expression-recognition-from-stream.py) ( [Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/) )
+2- [Real Time Facial Expression Recognition](python/facial-expression-recognition-from-stream.py) ( [Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/) )
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
