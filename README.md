@@ -80,7 +80,11 @@ We can adapt same representation approach to convolutional neural networks, too.
 
 1- [Unsupervised learning and k-means clustering with TensorFlow](python/KMeansClustering.py)
 
+We feel strong at supervised learning but today the more data we have is unlabeled. Unsupervised learning is mandatory field in machine learning.
+
 2- [Applying k-means clustering to n-dimensional datasets in TensorFlow](python/KMeansClustering.py)
+
+We can visualize clustering result on 2 and 3 dimensional space but the algorithm still works for higher dimensions even though we cannot visualize. Here, we apply k-means for n-dimensional data set but visualize for 3 dimensions.
 
 # Section 6 - Tuning Deep Neural Networks Models
 
