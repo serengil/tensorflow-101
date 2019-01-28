@@ -14,27 +14,29 @@ In this repository, source codes will be shared while capturing ["TensorFlow 101
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
-3- [How single layer perceptron works](python/single-layer-perceptron.py)
-
-4- [Autoencoder and clustering](python/Autoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/21/autoencoder-neural-networks-for-unsupervised-learning/) )
-
-5- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/23/convolutional-autoencoder-clustering-images-with-neural-networks/) )
-
-6- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
+3- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
-7- [Real Time Deep Face Recognition Implementation with VGG-Face](python/deep-face-real-time.py) ( [Demo](https://www.youtube.com/watch?v=tSU_lNi0gQQ) )
+4- [Real Time Deep Face Recognition Implementation with VGG-Face](python/deep-face-real-time.py) ( [Demo](https://www.youtube.com/watch?v=tSU_lNi0gQQ) )
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-face-recognition-demo.png" width="70%" height="70%"></p>
 
-8- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Additional Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
+5- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Additional Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
 
-9- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
+6- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
-10- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
+7- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
+
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
+
+8- [Autoencoder and clustering](python/Autoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/21/autoencoder-neural-networks-for-unsupervised-learning/) )
+
+<p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2018/03/autoencoder-and-autodecoder.png" width="70%" height="70%"></p>
+
+9- [Convolutional Autoencoder and clustering](python/ConvolutionalAutoencoder.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/03/23/convolutional-autoencoder-clustering-images-with-neural-networks/) )
 
 # Section 1 - Installing TensorFlow
 
@@ -88,4 +90,8 @@ In this repository, source codes will be shared while capturing ["TensorFlow 101
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
+# Additional Documents
+
+1- [How single layer perceptron works](python/single-layer-perceptron.py)
+
+2- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
