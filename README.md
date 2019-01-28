@@ -1,8 +1,8 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
-
 In this repository, source codes will be shared while capturing ["TensorFlow 101: Introduction to Deep Learning"](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710) online course published on Udemy.
+
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
 # Course content
 
@@ -60,17 +60,17 @@ The course consists of 18 lectures and includes 3 hours material.
 
 3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Additional Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png"></p>
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
 
 # Unrecorded lectures
 
 1- [Facial Expression Recognition Including Training and Testing on a image](python/facial-expression-recognition.py) ( [Additional Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png"></p>
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
 2- [Facial Expression Recognition Including Stream Data and Webcam](python/facial-expression-recognition-from-stream.py) ( [Additional Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/) )
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
 3- [How single layer perceptron works](python/single-layer-perceptron.py)
 
@@ -80,16 +80,16 @@ The course consists of 18 lectures and includes 3 hours material.
 
 6- [Face Recognition With Oxford VGG-Face Model](python/vgg-face.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) )
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
 7- [Real Time Deep Face Recognition Implementation with VGG-Face](python/deep-face-real-time.py) ( [Demo](https://www.youtube.com/watch?v=tSU_lNi0gQQ) )
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-face-recognition-demo.png"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-face-recognition-demo.png" width="70%" height="70%"></p>
 
 8- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Additional Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
 
 9- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Additional Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png"></p>
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
 10- [Gradient Vanishing Problem](python/gradient-vanishing.py) ( [Additional Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/) )
