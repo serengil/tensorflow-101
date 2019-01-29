@@ -6,7 +6,7 @@ This repository includes the source codes and notebooks mostly captured in **[Te
 
 <p align="center">Vincent van Gogh style Galatasaray University</p>
 
-# Deep Learning Applications
+# Advanced Deep Learning Applications
 
 1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
@@ -52,7 +52,25 @@ We can use neural networks to represent data. If you design a neural networks mo
 
 We can adapt same representation approach to convolutional neural networks, too.
 
-# Section 1 - Installing TensorFlow
+9- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
+
+We can have the outcomes of the other researchers effortlessly. Google researchers compete on Kaggle Imagenet competition. They got 97% accuracy. We will adapt Google's Inception V3 model to classify objects.
+
+<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
+
+10- [Handwritten Digit Classification Using Neural Networks](python/HandwrittenDigitsClassification.py) ( [Tutorial](https://sefiks.com/2017/09/11/handwritten-digit-classification-with-tensorflow/) )
+
+We had to apply feature extraction on data sets to use neural networks. Deep learning enables to skip this step. We just feed the data, and deep neural networks can extract features on the data set. Here, we will feed handwritten digit data (MNIST) to deep neural networks, and expect to learn digits.
+
+<p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2017/09/mnist-sample-output.png" width="70%" height="70%"></p>
+
+11- [Handwritten Digit Recognition Using Convolutional Neural Networks with Keras](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py) ( [Tutorial](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/) )
+
+Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
+
+# Curriculum
+
+## Section 1 - Installing TensorFlow
 
 1- [Installing TensorFlow and Prerequisites](https://www.youtube.com/watch?v=JeR2M46tLlE)
 
@@ -60,7 +78,7 @@ We can adapt same representation approach to convolutional neural networks, too.
 
 3- [Hello, TensorFlow! Building Deep Neural Networks Classifier Model](python/DNNClassifier.py)
 
-# Section 2 - Reusability in TensorFlow
+## Section 2 - Reusability in TensorFlow
 
 1- [Restoring and Working on Already Trained DNN In TensorFlow](python/DNNClassifier.py)
 
@@ -70,17 +88,17 @@ The costly operation in neural networks is learning. You may spent hours to trai
 
 You can handle training with TensorFlow in Python and you can call this trained model from Java on your production pipeline.
 
-# Section 3 - Monitoring and Evaluating
+## Section 3 - Monitoring and Evaluating
 
 1- [Monitoring Model Evaluation Metrics in TensorFlow and TensorBoard](python/DNNClassifier.py)
 
-# Section 4 - Building regression and time series models
+## Section 4 - Building regression and time series models
 
 1- [Building a DNN Regressor for Non-Linear Time Series in TensorFlow](python/DNNRegressor.py)
 
 2- [Visualizing ML Results with Matplotlib and Embed them in TensorBoard](python/DNNRegressor.py)
 
-# Section 5 - Building Unsupervised Learning Models
+## Section 5 - Building Unsupervised Learning Models
 
 1- [Unsupervised learning and k-means clustering with TensorFlow](python/KMeansClustering.py)
 
@@ -90,13 +108,13 @@ We feel strong at supervised learning but today the more data we have is unlabel
 
 We can visualize clustering result on 2 and 3 dimensional space but the algorithm still works for higher dimensions even though we cannot visualize. Here, we apply k-means for n-dimensional data set but visualize for 3 dimensions.
 
-# Section 6 - Tuning Deep Neural Networks Models
+## Section 6 - Tuning Deep Neural Networks Models
 
 1- [Optimization Algorithms in TensorFlow](python/OptimizationAlgorithms.py)
 
 2- [Activation Functions in TensorFlow](python/ActivationFunctions.py)
 
-# Section 7 - Consuming TensorFlow via Keras
+## Section 7 - Consuming TensorFlow via Keras
 
 1- [Installing Keras](https://www.youtube.com/watch?v=qx5pivWvKC8)
 
@@ -104,25 +122,7 @@ We can visualize clustering result on 2 and 3 dimensional space but the algorith
 
 3- [Storing and restoring a trained neural networks model with Keras](python/KerasModelRestoration.py)
 
-# Section 8 - Advanced Applications
-
-1- [Handwritten Digit Classification Using Neural Networks](python/HandwrittenDigitsClassification.py) ( [Tutorial](https://sefiks.com/2017/09/11/handwritten-digit-classification-with-tensorflow/) )
-
-We had to apply feature extraction on data sets to use neural networks. Deep learning enables to skip this step. We just feed the data, and deep neural networks can extract features on the data set. Here, we will feed handwritten digit data (MNIST) to deep neural networks, and expect to learn digits.
-
-<p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2017/09/mnist-sample-output.png" width="70%" height="70%"></p>
-
-2- [Handwritten Digit Recognition Using Convolutional Neural Networks with Keras](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py) ( [Tutorial](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/) )
-
-Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
-
-3- [Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras](python/transfer_learning.py) ( [Tutorial](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/) )
-
-We can have the outcomes of the other researchers effortlessly. Google researchers compete on Kaggle Imagenet competition. They got 97% accuracy. We will adapt Google's Inception V3 model to classify objects.
-
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/inceptionv3-result.png" width="70%" height="70%"></p>
-
-# Additional Documents
+## Additional Documents
 
 1- [How single layer perceptron works](python/single-layer-perceptron.py)
 
