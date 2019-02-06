@@ -34,7 +34,7 @@ This is the real time implementation of VGG-Face model for face recognition.
 
 5- [Face Recognition with Google FaceNet Model](python/facenet.ipynb) ([Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/))
 
-This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face.
+This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face based on my observations and experiments.
 
 6- [Making Arts with Deep Learning: Artistic Style Transfer](python/style-transfer.ipynb) ( [Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/) )
 
