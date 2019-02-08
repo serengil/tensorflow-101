@@ -1,12 +1,10 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-This repository includes the source codes and notebooks **mostly** captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy. Some implementations might have dedicated documentations linked to my personal blog.
+Deep learning has no theoretical limitations of what it can learn. This repository includes project implementations that I couldn't imagine before. You can find both the source code and step by step explaining documentation.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
-<p align="center">Vincent van Gogh style Galatasaray University</p>
-
-# Advanced Deep Learning Applications
+<p align="center">Galatasaray University in the style of Vincent van Gogh's Starry Night</p>
 
 1- [Facial Expression Recognition](python/facial-expression-recognition.py) ( [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/) )
 
@@ -69,6 +67,8 @@ We had to apply feature extraction on data sets to use neural networks. Deep lea
 Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
 
 # Curriculum
+
+The following curriculum includes the source codes and notebooks captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy.
 
 ## Section 1 - Installing TensorFlow
 
