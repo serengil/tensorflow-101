@@ -2,7 +2,7 @@
 
 Deep learning has no theoretical limitations of what it can learn. It knocks its benchmarks. This repository includes project implementations that I couldn't imagine before. You can find the source code and documentation as a step by step tutorial.
 
-1- ## Facial Expression Recognition ## [Code](python/facial-expression-recognition.py), [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
+1- ** Facial Expression Recognition ** [Code](python/facial-expression-recognition.py), [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
 This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This model runs fast and produces satisfactory results.
 
