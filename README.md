@@ -1,6 +1,6 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-Deep learning has no theoretical limitations of what it can learn. It knocks its benchmarks. This repository includes project implementations that I couldn't imagine before. You can find the source code and documentation as a step by step tutorial.
+Deep learning has no theoretical limitations of what it can learn. It obviously knocks its benchmarks. This repository includes project implementations that I couldn't imagine before. You can find the source code and documentation as a step by step tutorial.
 
 1- **Facial Expression Recognition** [Code](python/facial-expression-recognition.py), [Tutorial](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
@@ -127,3 +127,7 @@ This is the 1957 model implementation of the perceptron.
 2- **Gradient Vanishing Problem** [Code](python/gradient-vanishing.py) [Tutorial](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
 
 Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
+
+# Licence
+
+You can use, clone or distribute any content of this repository just to the extent that you cite or reference.
