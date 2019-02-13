@@ -34,7 +34,7 @@ This is an alternative to Oxford VGG model. Even though FaceNet has more complex
 
 We've used VGG-Face model for apparent age prediction this thime.
 
-<p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2019/02/age-prediction-for-godfather.png" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-prediction-for-godfather.png" width="70%" height="70%"></p>
 
 7- **Making Arts with Deep Learning: Artistic Style Transfer** [Code](python/style-transfer.ipynb), [Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/)
 
