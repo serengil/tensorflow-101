@@ -30,9 +30,9 @@ This is the real time implementation of VGG-Face model for face recognition.
 
 This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face based on my observations and experiments.
 
-6- **Apparent Age and Gender Prediction** [Code for Age](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [Code for Gender](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb) [Tutorial](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
+6- **Apparent Age and Gender Prediction** [Code for age](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [Code for gender](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb) [Tutorial](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
 
-We've used VGG-Face model for apparent age prediction this thime.
+We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-prediction-for-godfather.png" width="70%" height="70%"></p>
 
