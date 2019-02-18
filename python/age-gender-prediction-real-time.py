@@ -14,6 +14,14 @@ from os import listdir
 
 #-----------------------
 
+male_icon = cv2.imread("male.jpg")
+male_icon = cv2.resize(male_icon, (40, 40))
+
+female_icon = cv2.imread("female.jpg")
+female_icon = cv2.resize(female_icon, (40, 40))
+
+#-----------------------
+
 #color = (67,67,67)
 color = (255,255,255)
 
@@ -124,9 +132,10 @@ while(True):
 		if w > 130: #ignore small faces
 			
 			#mention detected face
-			overlay = img.copy(); output = img.copy(); opacity = 0.6
+			"""overlay = img.copy(); output = img.copy(); opacity = 0.6
 			cv2.rectangle(img,(x,y),(x+w,y+h),(128,128,128),cv2.FILLED) #draw rectangle to main image
-			cv2.addWeighted(overlay, opacity, img, 1 - opacity, 0, img)
+			cv2.addWeighted(overlay, opacity, img, 1 - opacity, 0, img)"""
+			cv2.rectangle(img,(x,y),(x+w,y+h),(128,128,128),1) #draw rectangle to main image
 			
 			#extract detected face
 			detected_face = img[int(y):int(y+h), int(x):int(x+w)] #crop detected face
@@ -149,7 +158,7 @@ while(True):
 				
 				#find out age and gender
 				age_distributions = age_model.predict(img_pixels)
-				apparent_age = str(int(np.round(np.sum(age_distributions * output_indexes, axis = 1))[0]))
+				apparent_age = str(int(np.floor(np.sum(age_distributions * output_indexes, axis = 1))[0]))
 				
 				gender_distribution = gender_model.predict(img_pixels)[0]
 				gender_index = np.argmax(gender_distribution)
@@ -159,13 +168,23 @@ while(True):
 			
 				#background for age gender declaration
 				info_box_color = (46,200,255)
-				triangle_cnt = np.array( [(x+int(w/2), y+10), (x+int(w/2)-30, y-20), (x+int(w/2)+30, y-20)] )
+				#triangle_cnt = np.array( [(x+int(w/2), y+10), (x+int(w/2)-25, y-20), (x+int(w/2)+25, y-20)] )
+				triangle_cnt = np.array( [(x+int(w/2), y), (x+int(w/2)-20, y-20), (x+int(w/2)+20, y-20)] )
 				cv2.drawContours(img, [triangle_cnt], 0, info_box_color, -1)
 				cv2.rectangle(img,(x+int(w/2)-50,y-20),(x+int(w/2)+50,y-90),info_box_color,cv2.FILLED)
 				
 				#labels for age and gender
 				cv2.putText(img, apparent_age, (x+int(w/2), y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
-				cv2.putText(img, gender, (x+int(w/2)-42, y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
+				
+				#cv2.putText(img, gender, (x+int(w/2)-42, y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
+				if gender == 'M':					
+					gender_icon = male_icon
+				else:
+					gender_icon = female_icon
+				
+				img[y-75:y-75+male_icon.shape[0], x+int(w/2)-45:x+int(w/2)-45+male_icon.shape[1]] = gender_icon
+				
+				
 			except:
 				print("exception")
 			
