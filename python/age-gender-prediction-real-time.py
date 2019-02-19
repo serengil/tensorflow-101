@@ -13,17 +13,16 @@ import matplotlib.pyplot as plt
 from os import listdir
 
 #-----------------------
+#you can find male and female icons here: https://github.com/serengil/tensorflow-101/tree/master/dataset
+
+enableGenderIcons = True
 
 male_icon = cv2.imread("male.jpg")
 male_icon = cv2.resize(male_icon, (40, 40))
 
 female_icon = cv2.imread("female.jpg")
 female_icon = cv2.resize(female_icon, (40, 40))
-
 #-----------------------
-
-#color = (67,67,67)
-color = (255,255,255)
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
@@ -176,17 +175,16 @@ while(True):
 				#labels for age and gender
 				cv2.putText(img, apparent_age, (x+int(w/2), y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
 				
-				#cv2.putText(img, gender, (x+int(w/2)-42, y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
-				if gender == 'M':					
-					gender_icon = male_icon
+				if enableGenderIcons:
+					if gender == 'M': gender_icon = male_icon
+					else: gender_icon = female_icon
+					
+					img[y-75:y-75+male_icon.shape[0], x+int(w/2)-45:x+int(w/2)-45+male_icon.shape[1]] = gender_icon
 				else:
-					gender_icon = female_icon
+					cv2.putText(img, gender, (x+int(w/2)-42, y - 45), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 111, 255), 2)
 				
-				img[y-75:y-75+male_icon.shape[0], x+int(w/2)-45:x+int(w/2)-45+male_icon.shape[1]] = gender_icon
-				
-				
-			except:
-				print("exception")
+			except Exception as e:
+				print("exception",str(e))
 			
 	cv2.imshow('img',img)
 	
