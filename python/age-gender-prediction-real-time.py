@@ -91,7 +91,7 @@ def ageModel():
 	
 	age_model = Model(inputs=model.input, outputs=base_model_output)
 	
-	#you can find the pre-trained weights for age prediction here: https://drive.google.com/file/d/1xbACfpKPPoWv8_BK2iomx642H6qdS4Ig/view?usp=sharing
+	#you can find the pre-trained weights for age prediction here: https://drive.google.com/file/d/1YCox_4kJ-BYeXq27uUbasu--yz28zUMV/view?usp=sharing
 	age_model.load_weights("age_model_weights.h5")
 	
 	return age_model
