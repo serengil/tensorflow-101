@@ -40,7 +40,7 @@ We've used VGG-Face model for apparent age prediction this time. We actually app
 
 This is a real time apparent age and gender prediction implementation
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-real-time.jpg" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-real-time.jpg" width="60%" height="60%"></p>
 
 8- **Making Arts with Deep Learning: Artistic Style Transfer** [Code](python/style-transfer.ipynb), [Tutorial](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/)
 
