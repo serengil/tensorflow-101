@@ -8,7 +8,7 @@ This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This m
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
-2- **Real Time Facial Expression Recognition** [Code](python/facial-expression-recognition-from-stream.py), [Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/)
+2- **Real Time Facial Expression Recognition** [Code](https://github.com/serengil/tensorflow-101/blob/master/python/emotion-analysis-from-video.py), [Tutorial](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/)
 
 This is the adaptation of the same model to real time video.
 
