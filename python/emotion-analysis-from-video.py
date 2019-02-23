@@ -17,7 +17,8 @@ model.load_weights('facial_expression_model_weights.h5') #load weights
 
 emotions = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
 
-cap = cv2.VideoCapture('zuckerberg.mp4')
+#cap = cv2.VideoCapture('zuckerberg.mp4') #process videos
+cap = cv2.VideoCapture(0) #process real time web-cam
 
 frame = 0
 
