@@ -74,6 +74,12 @@ We had to apply feature extraction on data sets to use neural networks. Deep lea
 
 Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
 
+14- **Automated Machine Learning and Auto-Keras** [Code](https://github.com/serengil/tensorflow-101/blob/master/python/Auto-Keras.ipynb), [Model](https://github.com/serengil/tensorflow-101/blob/master/model/fer_keras_model_from_autokeras.json), Tutorial
+
+AutoML concept aims to find the best network structure and hyper-parameters. Here, I've applied AutoML to facial expression recognition data set. My custom design got 57% accuracy whereas AutoML found a better model and got 66% accuracy. This means almost 10% improvement in the accuracy.
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/google-automl.jpg" width="70%" height="70%"></p>
+
 # Curriculum
 
 The following curriculum includes the source codes and notebooks captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy.
