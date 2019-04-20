@@ -148,4 +148,4 @@ Why legacy activation functions such as sigmoid and tanh disappear on the pages 
 
 # Licence
 
-This repository is licensed under MIT license - see [LICENSE](https://github.com/serengil/tensorflow-101/blob/master/LICENSE) for more details
+This repository is licensed under MIT license - see [`LICENSE`](https://github.com/serengil/tensorflow-101/blob/master/LICENSE) for more details
