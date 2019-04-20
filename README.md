@@ -30,7 +30,7 @@ This is the real time implementation of VGG-Face model for face recognition.
 
 This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face based on my observations and experiments.
 
-6- **Apparent Age and Gender Prediction** [Code for age](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [Code for gender](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
+6- **Apparent Age and Gender Prediction** [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for genderv](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast.
 
@@ -74,7 +74,7 @@ We had to apply feature extraction on data sets to use neural networks. Deep lea
 
 Convolutional neural networks are close to human brain. People look for some patterns in classifying objects. For example, mouth, nose and ear shape of a cat is enough to classify a cat. We don't look at all pixels, just focus on some area. Herein, CNN applies some filters to detect these kind of shapes. They perform better than conventional neural networks. Herein, we got almost 2% accuracy than fully connected neural networks.
 
-14- **Automated Machine Learning and Auto-Keras** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Auto-Keras.ipynb), [Model](https://github.com/serengil/tensorflow-101/blob/master/model/fer_keras_model_from_autokeras.json), Tutorial
+14- **Automated Machine Learning and Auto-Keras** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Auto-Keras.ipynb), [`Model`](https://github.com/serengil/tensorflow-101/blob/master/model/fer_keras_model_from_autokeras.json), Tutorial
 
 AutoML concept aims to find the best network structure and hyper-parameters. Here, I've applied AutoML to facial expression recognition data set. My custom design got 57% accuracy whereas AutoML found a better model and got 66% accuracy. This means almost 10% improvement in the accuracy.
 
@@ -86,9 +86,9 @@ The following curriculum includes the source codes and notebooks captured in **[
 
 ## Section 1 - Installing TensorFlow
 
-1- **Installing TensorFlow and Prerequisites** [Video](https://www.youtube.com/watch?v=JeR2M46tLlE)
+1- **Installing TensorFlow and Prerequisites** [`Video`](https://www.youtube.com/watch?v=JeR2M46tLlE)
 
-2- **Jupyter notebook** [Video](https://www.youtube.com/watch?v=W3IJfVL1upI)
+2- **Jupyter notebook** [`Video`](https://www.youtube.com/watch?v=W3IJfVL1upI)
 
 3- **Hello, TensorFlow! Building Deep Neural Networks Classifier Model** [`Code`](python/DNNClassifier.py)
 
