@@ -24,7 +24,7 @@ Oxford Visual Geometry Group's VGG model is famous for confident scores on Image
 
 This is the real time implementation of VGG-Face model for face recognition.
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-face-recognition-demo.png" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/real-time-face-recognition-demo.jpg" width="70%" height="70%"></p>
 
 5- **Face Recognition with Google FaceNet Model** [Code](python/facenet.ipynb), [Tutorial](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/)
 
