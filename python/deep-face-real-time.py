@@ -23,6 +23,9 @@ def preprocess_image(image_path):
     img = load_img(image_path, target_size=(224, 224))
     img = img_to_array(img)
     img = np.expand_dims(img, axis=0)
+    
+    #preprocess_input normalizes input in scale of [-1, +1]. You must apply same normalization in prediction.
+    #Ref: https://github.com/keras-team/keras-applications/blob/master/keras_applications/imagenet_utils.py (Line 45)
     img = preprocess_input(img)
     return img
 
@@ -120,7 +123,10 @@ while(True):
 			
 			img_pixels = image.img_to_array(detected_face)
 			img_pixels = np.expand_dims(img_pixels, axis = 0)
-			img_pixels /= 255
+			#img_pixels /= 255
+			#employee dictionary is using preprocess_image and it normalizes in scale of [-1, +1]
+			img_pixels /= 127.5
+			img_pixels -= 1
 			
 			captured_representation = model.predict(img_pixels)[0,:]
 			
