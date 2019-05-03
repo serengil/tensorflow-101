@@ -158,7 +158,7 @@ Python 3.6.4 :: Anaconda, Inc.
 
 C:\>activate tensorflow
 
-(tensorflow) C:\Users\IS96273>python
+(tensorflow) C:\>python
 Python 3.5.5 |Anaconda, Inc.| (default, Apr  7 2018, 04:52:34) [MSC v.1900 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import tensorflow as tf
