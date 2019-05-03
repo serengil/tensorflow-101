@@ -167,6 +167,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import keras
 Using TensorFlow backend.
 >>> print(keras.__version__)
+2.2.0
 ```
 
 # Licence
