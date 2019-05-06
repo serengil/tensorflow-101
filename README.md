@@ -1,6 +1,6 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-Deep learning has no theoretical limitations of what it can learn. It obviously knocks its benchmarks. This repository includes project implementations that I couldn't imagine before. You can find the source code and documentation as a step by step tutorial.
+Deep learning has no theoretical limitations of what it can learn. It obviously knocks its benchmarks. This repository includes deep learning based project implementations. You can find both the source code and documentation as a step by step tutorial. Everything is built from scratch whereas pre-trained weights are shared as well.
 
 1- **Facial Expression Recognition** [`Code`](python/facial-expression-recognition.py), [`Tutorial`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
