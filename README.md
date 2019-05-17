@@ -1,6 +1,6 @@
 # TensorFlow 101: Introduction to Deep Learning
 
-Deep learning has no upper limit of what it can done. It obviously knocks its benchmarks for daily life problems. This repository includes deep learning based project implementations I've done from scratch. You can find both the source code and documentation as a step by step tutorial. Model structrues and pre-trained weights are shared as well.
+Deep learning has no upper limit of what it can done as Geoffrey Hinton mentioned. It obviously knocks its benchmarks for daily life problems. This repository will guide you to become a machine learning practitioner. This includes deep learning based project implementations I've done from scratch. You can find both the source code and documentation as a step by step tutorial. Model structrues and pre-trained weights are shared as well.
 
 1- **Facial Expression Recognition** [`Code`](python/facial-expression-recognition.py), [`Tutorial`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
