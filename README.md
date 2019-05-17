@@ -50,7 +50,7 @@ This is a real time apparent age and gender prediction implementation
 
 This is the real time implementation of finding similar celebrities
 
-10- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/)
+10- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
 What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named artistic style transfer enables to transform ordinary images to masterpieces.
 
