@@ -42,13 +42,17 @@ This is a real time apparent age and gender prediction implementation
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-real-time.jpg" width="50%" height="50%"></p>
 
-8- **Celebrity You Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Find-Look-Alike-Celebrities.ipynb), [`Tutorial`](https://sefiks.com/2019/05/05/celebrity-look-alike-face-recognition-with-deep-learning-in-keras/), 
+8- **Celebrity You Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Find-Look-Alike-Celebrities.ipynb), [`Tutorial`](https://sefiks.com/2019/05/05/celebrity-look-alike-face-recognition-with-deep-learning-in-keras/)
+
+Applying same face recogniction technology for imdb data set will find your celebrity look-alike if you discard the threshold in similarity score.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/sefik-looks-alike-colin-hanks.jpg" width="50%" height="50%"></p>
 
-9- **Real Time Celebrity Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/celebrity-look-alike-real-time.py), Video
+9- **Real Time Celebrity Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/celebrity-look-alike-real-time.py), [`Video`](https://youtu.be/RMgIKU1H8DY)
 
-This is the real time implementation of finding similar celebrities
+This is the real time implementation of finding similar celebrities.
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/celebrity-look-alike-real-time.jpg" width="70%" height="70%"></p>
 
 10- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
