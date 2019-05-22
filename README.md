@@ -10,7 +10,7 @@ This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This m
 
 2- **Real Time Facial Expression Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/emotion-analysis-from-video.py), [`Tutorial`](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/), [`Video`](https://youtu.be/Y7DfLvLKScs)
 
-This is the adaptation of the same model to real time video.
+This is the adaptation of the same model to real time video or web cam.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
