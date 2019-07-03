@@ -100,17 +100,26 @@ SHAP explains black box machine learning models and makes them transparent, expl
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/fer-for-shap.png" width="70%" height="70%"></p>
 
-# Curriculum
+18- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
+
+This is the 1957 model implementation of the perceptron.
+
+19- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
+
+Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
+
+
+
+
+
+
+# TensorFlow 101 Online Course Curriculum
 
 The following curriculum includes the source codes and notebooks captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy.
 
 ## Section 1 - Installing TensorFlow
 
-1- **Installing TensorFlow and Prerequisites** [`Video`](https://www.youtube.com/watch?v=JeR2M46tLlE)
-
-2- **Jupyter notebook** [`Video`](https://www.youtube.com/watch?v=W3IJfVL1upI)
-
-3- **Hello, TensorFlow! Building Deep Neural Networks Classifier Model** [`Code`](python/DNNClassifier.py)
+1- **Hello, TensorFlow! Building Deep Neural Networks Classifier Model** [`Code`](python/DNNClassifier.py)
 
 ## Section 2 - Reusability in TensorFlow
 
@@ -150,21 +159,17 @@ We can visualize clustering result on 2 and 3 dimensional space but the algorith
 
 ## Section 7 - Consuming TensorFlow via Keras
 
-1- **Installing Keras** [`Video`](https://www.youtube.com/watch?v=qx5pivWvKC8)
+1- **Building DNN Classifier with Keras** [`Code`](python/HelloKeras.py)
 
-2- **Building DNN Classifier with Keras** [`Code`](python/HelloKeras.py)
+2- **Storing and restoring a trained neural networks model with Keras** [`Code`](python/KerasModelRestoration.py)
 
-3- **Storing and restoring a trained neural networks model with Keras** [`Code`](python/KerasModelRestoration.py)
+# Section 8 - Advanced Applications
 
-## Additional Documents
+1- **Handwritten Digit Recognition Using Neural Networks** [`Code`](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py), [`Tutorial`](https://github.com/serengil/tensorflow-101/blob/master/python/HandwrittenDigitsClassification.py)
 
-1- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
+2- **Handwritten Digit Recognition Using Convolutional Neural Networks with Keras** [`Code`](python/HandwrittenDigitRecognitionUsingCNNWithKeras.py), [`Tutorial`](https://sefiks.com/2017/11/05/handwritten-digit-recognition-using-cnn-with-keras/)
 
-This is the 1957 model implementation of the perceptron.
-
-2- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
-
-Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
+3-  **Transfer Learning: Consuming InceptionV3 to Classify Cat and Dog Images in Keras** [`Code`](python/transfer_learning.py), [`Tutorial`](https://sefiks.com/2017/12/10/transfer-learning-in-keras-using-inception-v3/)
 
 # Requirements
 
@@ -187,6 +192,12 @@ Using TensorFlow backend.
 >>> print(keras.__version__)
 2.2.0
 ```
+
+To get your environment up you can follow the instructions in the following videos.
+
+**Installing TensorFlow and Prerequisites** [`Video`](https://www.youtube.com/watch?v=JeR2M46tLlE)
+
+**Installing Keras** [`Video`](https://www.youtube.com/watch?v=qx5pivWvKC8)
 
 # Support
 
