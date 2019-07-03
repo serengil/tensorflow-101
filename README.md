@@ -150,7 +150,7 @@ We can visualize clustering result on 2 and 3 dimensional space but the algorith
 
 ## Section 7 - Consuming TensorFlow via Keras
 
-1- **Installing Keras** [`Code`](https://www.youtube.com/watch?v=qx5pivWvKC8)
+1- **Installing Keras** [`Video`](https://www.youtube.com/watch?v=qx5pivWvKC8)
 
 2- **Building DNN Classifier with Keras** [`Code`](python/HelloKeras.py)
 
