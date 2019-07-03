@@ -188,6 +188,10 @@ Using TensorFlow backend.
 2.2.0
 ```
 
+# Support
+
+There are many ways to support a project - starring the GitHub repos is one.
+
 # Licence
 
 This repository is licensed under MIT license - see [`LICENSE`](https://github.com/serengil/tensorflow-101/blob/master/LICENSE) for more details
