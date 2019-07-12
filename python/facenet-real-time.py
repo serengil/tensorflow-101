@@ -100,7 +100,7 @@ while(True):
 				
 				distance = findEuclideanDistance(captured_representation, source_representation)
 				
-				#print(employee_name,": ",distance)
+				print(employee_name,": ",distance)
 				distances.append(distance)
 			
 			label_name = 'unknown'
@@ -119,7 +119,7 @@ while(True):
 					
 				index = index + 1
 			
-			cv2.putText(img, label_name, (int(x+w+15), int(y-64)), cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2)
+			cv2.putText(img, label_name, (int(x+w+15), int(y-64)), cv2.FONT_HERSHEY_SIMPLEX, 1, (67,67,67), 2)
 					
 			#connect face and text
 			cv2.line(img,(x+w, y-64),(x+w-25, y-64),(67,67,67),1)
