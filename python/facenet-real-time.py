@@ -77,7 +77,7 @@ while(True):
 	
 	for (x,y,w,h) in faces:
 		if w > 130: 
-			cv2.rectangle(img, (x,y), (x+w,y+h), color, 1) #draw rectangle to main image
+			cv2.rectangle(img, (x,y), (x+w,y+h), (67, 67, 67), 1) #draw rectangle to main image
 			
 			detected_face = img[int(y):int(y+h), int(x):int(x+w)] #crop detected face
 			detected_face = cv2.resize(detected_face, (160, 160)) #resize to 224x224
