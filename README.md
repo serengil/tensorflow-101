@@ -28,7 +28,7 @@ This is the real time implementation of VGG-Face model for face recognition.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/real-time-face-recognition-demo.jpg" width="70%" height="70%"></p>
 
-5- **Face Recognition with Google FaceNet Model** [`Code`](python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py)
+5- **Face Recognition with Google FaceNet Model** [`Code`](python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), Video
 
 This is an alternative to Oxford VGG model. Even though FaceNet has more complex structure, it runs slower and less successful than VGG-Face based on my observations and experiments.
 
