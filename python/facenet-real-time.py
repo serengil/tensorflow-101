@@ -1,6 +1,7 @@
-#Face Recognition with Facenet
-#author Sefik Ilkin Serengil
-#you can find the documentation of this code from the following link: https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/
+#Face Recognition with Google's Facenet Model
+#author Sefik Ilkin Serengil (sefiks.com)
+#you can find the documentation of this code from the following link: 
+#https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/
 
 #test for TensorFlow 1.9.0, Keras 2.2.0 and Python 3.5.5
 
@@ -100,24 +101,27 @@ while(True):
 				
 				distance = findEuclideanDistance(captured_representation, source_representation)
 				
-				print(employee_name,": ",distance)
+				#print(employee_name,": ",distance)
 				distances.append(distance)
 			
 			label_name = 'unknown'
 			index = 0
 			for i in employees:
-				#employee_name = "%s (%d)" % (i, distance)
-				#print(distance)
+				similarity = 100 + (15 - distance)
+				employee_name = "%s (%d%s)" % (i, similarity, '%')
+				#print(employee_name)
 				employee_name = i
 				if index == np.argmin(distances):
 					#print("min: ",employee_name)
 					if distances[index] <= threshold:
 						#print("detected: ",employee_name)
-						label_name = employee_name
+						label_name = "%s (%d%s)" % (i, similarity, '%') #employee_name
 						found = 1
 						break
 					
 				index = index + 1
+			
+			#print("----------------")
 			
 			cv2.putText(img, label_name, (int(x+w+15), int(y-64)), cv2.FONT_HERSHEY_SIMPLEX, 1, (67,67,67), 2)
 					
