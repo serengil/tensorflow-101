@@ -112,7 +112,7 @@ Why legacy activation functions such as sigmoid and tanh disappear on the pages 
 
 This is the 1957 model implementation of the perceptron.
 
-
+<p align="center"><img src="https://i1.wp.com/sefiks.com/wp-content/uploads/2018/05/perceptron.png" width="50%" height="50%"></p>
 
 
 
