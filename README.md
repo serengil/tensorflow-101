@@ -102,14 +102,15 @@ SHAP explains black box machine learning models and makes them transparent, expl
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/fer-for-shap.png" width="70%" height="70%"></p>
 
-18- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
-
-This is the 1957 model implementation of the perceptron.
-
-19- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
+18- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
 
 Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
 
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/gradient-vanishing-problem-summary.jpg" width="70%" height="70%"></p>
+
+19- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
+
+This is the 1957 model implementation of the perceptron.
 
 
 
