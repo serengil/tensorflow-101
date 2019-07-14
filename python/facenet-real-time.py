@@ -1,9 +1,12 @@
 #Face Recognition with Google's Facenet Model
-#author Sefik Ilkin Serengil (sefiks.com)
-#you can find the documentation of this code from the following link: 
+#Author Sefik Ilkin Serengil (sefiks.com)
+
+#You can find the documentation of this code from the following link: 
 #https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/
 
 #test for TensorFlow 1.9.0, Keras 2.2.0 and Python 3.5.5
+
+#-----------------------
 
 import numpy as np
 import cv2
@@ -16,6 +19,7 @@ from keras.preprocessing import image
 import matplotlib.pyplot as plt
 from keras.models import model_from_json
 from os import listdir
+
 #-----------------------
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -77,7 +81,7 @@ while(True):
 	faces = face_cascade.detectMultiScale(img, 1.3, 5)
 	
 	for (x,y,w,h) in faces:
-		if w > 130: 
+		if w > 130: #discard small detected faces
 			cv2.rectangle(img, (x,y), (x+w,y+h), (67, 67, 67), 1) #draw rectangle to main image
 			
 			detected_face = img[int(y):int(y+h), int(x):int(x+w)] #crop detected face
@@ -90,8 +94,6 @@ while(True):
 			img_pixels -= 1
 			
 			captured_representation = model.predict(img_pixels)[0,:]
-			
-			found = 0
 			
 			distances = []
 			
@@ -107,30 +109,26 @@ while(True):
 			label_name = 'unknown'
 			index = 0
 			for i in employees:
-				similarity = 100 + (15 - distance)
-				employee_name = "%s (%d%s)" % (i, similarity, '%')
-				#print(employee_name)
 				employee_name = i
 				if index == np.argmin(distances):
-					#print("min: ",employee_name)
 					if distances[index] <= threshold:
 						#print("detected: ",employee_name)
-						label_name = "%s (%d%s)" % (i, similarity, '%') #employee_name
-						found = 1
+						
+						#label_name = "%s (distance: %s)" % (employee_name, str(round(distance,2)))
+						similarity = 100 + (20 - distance)
+						if similarity > 99.99: similarity = 99.99
+						
+						label_name = "%s (%s%s)" % (employee_name, str(round(similarity,2)), '%')
+						
 						break
 					
 				index = index + 1
-			
-			#print("----------------")
 			
 			cv2.putText(img, label_name, (int(x+w+15), int(y-64)), cv2.FONT_HERSHEY_SIMPLEX, 1, (67,67,67), 2)
 					
 			#connect face and text
 			cv2.line(img,(x+w, y-64),(x+w-25, y-64),(67,67,67),1)
 			cv2.line(img,(int(x+w/2),y),(x+w-25,y-64),(67,67,67),1)
-		
-			if(found == 0): #if found image is not in employee database
-				cv2.putText(img, 'unknown', (int(x+w+15), int(y-12)), cv2.FONT_HERSHEY_SIMPLEX, 1, (67,67,67), 2)
 			
 	cv2.imshow('img',img)
 	
