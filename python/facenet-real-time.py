@@ -4,7 +4,7 @@
 #You can find the documentation of this code from the following link: 
 #https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/
 
-#test for TensorFlow 1.9.0, Keras 2.2.0 and Python 3.5.5
+#Tested for TensorFlow 1.9.0, Keras 2.2.0 and Python 3.5.5
 
 #-----------------------
 
