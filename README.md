@@ -34,9 +34,11 @@ This is an alternative to Oxford VGG model. My experiments show that it runs fas
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/facenet-real-time-demo.jpg" width="70%" height="70%"></p>
 
-6- **Face Recognition with OpenFace Model** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), `Tutorial`, [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), `Video`
+6- **Face Recognition with OpenFace Model** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`Video`](https://youtu.be/-4z2sL6wzP8)
 
-OpenFace is a lightweight model for face recognition tasks. It is not the best but it runs much faster than VGG-Face or Facenet.
+OpenFace is a lightweight model for face recognition tasks. It is not the best but it is the fastest.
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/openface-demo-cover.jpg" width="70%" height="70%"></p>
 
 7- **Apparent Age and Gender Prediction** [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
 
