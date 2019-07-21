@@ -34,7 +34,7 @@ This is an alternative to Oxford VGG model. My experiments show that it runs fas
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/facenet-real-time-demo.jpg" width="70%" height="70%"></p>
 
-6- **Face Recognition with OpenFace Model** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), `Tutorial`, [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py)
+6- **Face Recognition with OpenFace Model** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), `Tutorial`, [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), `Video`
 
 OpenFace is a lightweight model for face recognition tasks. It is not the best but it runs much faster than VGG-Face or Facenet.
 
