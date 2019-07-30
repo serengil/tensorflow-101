@@ -196,10 +196,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import tensorflow as tf
 >>> print(tf.__version__)
 1.9.0
+>>>
 >>> import keras
 Using TensorFlow backend.
 >>> print(keras.__version__)
 2.2.0
+>>>
+>>> import cv2
+>>> print(cv2.__version__)
+3.4.4
 ```
 
 To get your environment up you can follow the instructions in the following videos.
