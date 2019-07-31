@@ -4,6 +4,8 @@ I have worked all my life in Machine Learning, and **I've never seen one algorit
 
 This repository will guide you to become a machine learning practitioner. This includes deep learning based project implementations I've done from scratch. You can find both the source code and documentation as a step by step tutorial. Model structrues and pre-trained weights are shared as well.
 
+PS: This repository is updated regularly. You should pull the repo if you forked.
+
 1- **Facial Expression Recognition** [`Code`](python/facial-expression-recognition.py), [`Tutorial`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
 This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This model runs fast and produces satisfactory results.
