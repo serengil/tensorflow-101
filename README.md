@@ -106,7 +106,7 @@ AutoML concept aims to find the best network structure and hyper-parameters. Her
 
 18- **H2O AutoML for Tabular Data** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/H2OAutoMLOverview.ipynb), [`Tutorial`](https://sefiks.com/2019/09/03/a-gentle-introduction-to-h2o-automl)
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/09/h2o-automl.jpg" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/09/h2o-automl.jpg" width="40%" height="40%"></p>
 
 19- **Explaining Deep Learning Models with SHAP** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SHAP-Explainable-AI.ipynb), [`Tutorial`](https://sefiks.com/2019/07/01/how-shap-can-keep-you-from-black-box-ai/)
 
