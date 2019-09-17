@@ -129,7 +129,7 @@ This is the 1957 model implementation of the perceptron.
 
 # Requirements
 
-I have tested this repository on the following environments.
+I have tested this repository on the following environments. To avoid environmental issues, confirm your environment is same as below.
 
 ```
 C:\>python --version
@@ -154,7 +154,7 @@ Using TensorFlow backend.
 3.4.4
 ```
 
-To get your environment up you can follow the instructions in the following videos.
+To get your environment up from zero, you can follow the instructions in the following videos.
 
 **Installing TensorFlow and Prerequisites** [`Video`](https://www.youtube.com/watch?v=JeR2M46tLlE)
 
