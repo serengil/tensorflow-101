@@ -2,7 +2,7 @@
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
 
-This repository will guide you to become a machine learning practitioner. This includes deep learning based project implementations I've done from scratch. You can find both the source code and documentation as a step by step tutorial. Model structrues and pre-trained weights are shared as well.
+This repository includes deep learning based project implementations I've done from scratch. You can find both the source code and documentation as a step by step tutorial. Model structrues and pre-trained weights are shared as well.
 
 *PS: This repository is updated regularly. You should pull the repo if you forked.*
 
