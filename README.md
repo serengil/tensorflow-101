@@ -104,23 +104,19 @@ AutoML concept aims to find the best network structure and hyper-parameters. Her
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/google-automl.jpg" width="70%" height="70%"></p>
 
-18- **H2O AutoML for Tabular Data** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/H2OAutoMLOverview.ipynb), [`Tutorial`](https://sefiks.com/2019/09/03/a-gentle-introduction-to-h2o-automl)
-
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/09/h2o-automl.jpg" width="40%" height="40%"></p>
-
-19- **Explaining Deep Learning Models with SHAP** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SHAP-Explainable-AI.ipynb), [`Tutorial`](https://sefiks.com/2019/07/01/how-shap-can-keep-you-from-black-box-ai/)
+18- **Explaining Deep Learning Models with SHAP** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SHAP-Explainable-AI.ipynb), [`Tutorial`](https://sefiks.com/2019/07/01/how-shap-can-keep-you-from-black-box-ai/)
 
 SHAP explains black box machine learning models and makes them transparent, explainable and provable.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/fer-for-shap.png" width="70%" height="70%"></p>
 
-20- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
+19- **Gradient Vanishing Problem** [`Code`](python/gradient-vanishing.py) [`Tutorial`](https://sefiks.com/2018/05/31/an-overview-to-gradient-vanishing-problem/)
 
 Why legacy activation functions such as sigmoid and tanh disappear on the pages of the history?
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/gradient-vanishing-problem-summary.jpg" width="70%" height="70%"></p>
 
-21- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
+20- **How single layer perceptron works** [`Code`](python/single-layer-perceptron.py)
 
 This is the 1957 model implementation of the perceptron.
 
