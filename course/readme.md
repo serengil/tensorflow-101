@@ -1,6 +1,6 @@
 # TensorFlow 101 Online Course Curriculum
 
-The following curriculum includes the source codes and notebooks captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/tensorflow-101-introduction-to-deep-learning/?couponCode=TF101-BLOG-201710)** online course published on Udemy.
+The following curriculum includes the source codes and notebooks captured in **[TensorFlow 101: Introduction to Deep Learning](https://www.udemy.com/course/tensorflow-101-introduction-to-deep-learning/?referralCode=962F191091EC539DA5DA)** online course published on Udemy.
 
 ## Section 1 - Installing TensorFlow
 
