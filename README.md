@@ -46,7 +46,7 @@ OpenFace is a lightweight model for face recognition tasks. It is not the best b
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast.
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-prediction-for-godfather.png" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/10/age-prediction-for-godfather-original.png" width="70%" height="70%"></p>
 
 8- **Real Time Age and Gender Prediction** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/age-gender-prediction-real-time.py), [`Video`](https://youtu.be/tFI7vZn3P7E)
 
