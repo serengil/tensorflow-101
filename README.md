@@ -20,33 +20,33 @@ This is the adaptation of the same model to real time video or web cam.
 
 3- **Face Recognition With Oxford VGG-Face Model** [`Code`](python/vgg-face.ipynb), [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/)
 
-Oxford Visual Geometry Group's VGG model is famous for confident scores on Imagenet contest. They retrain (almost) the same network structure for face recognition. This implementation is mainly based on convolutional neural networks, autoencoders and transfer learning. This is on the top of the leaderboard for face recognition challenges.
+Oxford Visual Geometry Group's VGG model is famous for confident scores on Imagenet contest. They [retrain](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) almost the same network structure for face recognition. Pre-trained weights are converted from Matlab to Keras. This implementation is mainly based on convolutional neural networks, autoencoders and transfer learning. This is on the top of the leaderboard for face recognition challenges.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
 4- **Real Time Deep Face Recognition Implementation with VGG-Face** [`Code`](python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
-This is the real time implementation of VGG-Face model for face recognition. Pre-trained weights are converted from 
+This is the real time implementation of VGG-Face model for face recognition.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/real-time-face-recognition-demo.jpg" width="70%" height="70%"></p>
 
 5- **Face Recognition with Google FaceNet Model** [`Code`](python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Video`](https://youtu.be/vB1I5vWgTQg)
 
-This is an alternative to Oxford VGG model. My experiments show that it runs faster than VGG-Face but it is less accurate even though FaceNet has a more complex structure. 
-
-References: Pre-trained weights are converted from TensorFlow in the study of [David Sandberg](https://github.com/davidsandberg/facenet) to Keras.
+This is an alternative to Oxford VGG model. My experiments show that it runs faster than VGG-Face but it is less accurate even though FaceNet has a more complex structure. Pre-trained weights are converted from TensorFlow in the study of [David Sandberg](https://github.com/davidsandberg/facenet) to Keras. Besides, model construction is mainly based on the study of [Yu-Yang Huang](https://github.com/yuyang-huang/keras-inception-resnet-v2).
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/facenet-real-time-demo.jpg" width="70%" height="70%"></p>
 
 6- **Face Recognition with OpenFace Model** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`Video`](https://youtu.be/-4z2sL6wzP8)
 
-OpenFace is a lightweight model for face recognition tasks. It is not the best but it is the fastest.
+[OpenFace](http://cmusatyalab.github.io/openface/) is a lightweight model for face recognition tasks. It is not the best but it is the fastest. Original study shared the pre-trained weights in Lua Torch format. On the other hand, [this repository](https://github.com/iwantooxxoox/Keras-OpenFace) is shared the pre-trained weights in a flat file. I build the OpenFace model in Keras based on these sources.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/openface-demo-cover.jpg" width="70%" height="70%"></p>
 
 7- **Apparent Age and Gender Prediction** [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/)
 
-We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast.
+We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast. 
+
+This study is mainly based on [this study](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01229.pdf). However, this study shared pre-trained weights in Caffe and use VGG model. I adapt VGG-Face instead of VGG and train the model from scratch. 
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/10/age-prediction-for-godfather-original.png" width="70%" height="70%"></p>
 
@@ -58,7 +58,7 @@ This is a real time apparent age and gender prediction implementation
 
 9- **Celebrity You Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Find-Look-Alike-Celebrities.ipynb), [`Tutorial`](https://sefiks.com/2019/05/05/celebrity-look-alike-face-recognition-with-deep-learning-in-keras/)
 
-Applying same face recogniction technology for imdb data set will find your celebrity look-alike if you discard the threshold in similarity score.
+Applying VGG-Face recognition technology for [imdb data set](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) will find your celebrity look-alike if you discard the threshold in similarity score.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/sefik-looks-alike-colin-hanks.jpg" width="50%" height="50%"></p>
 
@@ -70,7 +70,7 @@ This is the real time implementation of finding similar celebrities.
 
 11- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
-What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named artistic style transfer enables to transform ordinary images to masterpieces.
+What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named [artistic style transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) enables to transform ordinary images to masterpieces.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2019/01/gsu_vincent.png" width="70%" height="70%"></p>
 
