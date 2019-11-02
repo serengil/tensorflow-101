@@ -14,7 +14,7 @@ This is a custom CNN model. Kaggle [FER 2013](https://www.kaggle.com/c/challenge
 
 2- **Real Time Facial Expression Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/emotion-analysis-from-video.py), [`Tutorial`](https://sefiks.com/2018/01/10/real-time-facial-expression-recognition-on-streaming-data/), [`Video 1`](https://youtu.be/Y7DfLvLKScs), [`Video 2`](https://youtu.be/Dm5ptTiIpkk)
 
-This is the adaptation of the same model to real time video or web cam.
+This is the adaptation of the same model to real time video or web cam. [OpenCV](https://github.com/opencv/opencv)'s haar cascade module detects the face and we applied facial expression recoginition to detected face.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
