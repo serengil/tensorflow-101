@@ -26,13 +26,15 @@ Oxford Visual Geometry Group's VGG model is famous for confident scores on Image
 
 4- **Real Time Deep Face Recognition Implementation with VGG-Face** [`Code`](python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
-This is the real time implementation of VGG-Face model for face recognition.
+This is the real time implementation of VGG-Face model for face recognition. Pre-trained weights are converted from 
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/04/real-time-face-recognition-demo.jpg" width="70%" height="70%"></p>
 
 5- **Face Recognition with Google FaceNet Model** [`Code`](python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Video`](https://youtu.be/vB1I5vWgTQg)
 
-This is an alternative to Oxford VGG model. My experiments show that it runs faster than VGG-Face but it is less accurate even though FaceNet has a more complex structure.
+This is an alternative to Oxford VGG model. My experiments show that it runs faster than VGG-Face but it is less accurate even though FaceNet has a more complex structure. 
+
+References: Pre-trained weights are converted from TensorFlow in the study of [David Sandberg](https://github.com/davidsandberg/facenet) to Keras.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/facenet-real-time-demo.jpg" width="70%" height="70%"></p>
 
@@ -155,6 +157,10 @@ To get your environment up from zero, you can follow the instructions in the fol
 **Installing TensorFlow and Prerequisites** [`Video`](https://www.youtube.com/watch?v=JeR2M46tLlE)
 
 **Installing Keras** [`Video`](https://www.youtube.com/watch?v=qx5pivWvKC8)
+
+# Disclaimer
+
+This repo might use some external sources. Notice that related tutorial links and comments in the code blocks cite references.
 
 # Support
 
