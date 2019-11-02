@@ -160,7 +160,7 @@ To get your environment up from zero, you can follow the instructions in the fol
 
 # Disclaimer
 
-This repo might use some external sources. Notice that related tutorial links and comments in the code blocks cite references.
+This repo might use some external sources. Notice that related tutorial links and comments in the code blocks cite references already.
 
 # Support
 
