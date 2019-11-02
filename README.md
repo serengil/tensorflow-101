@@ -8,7 +8,7 @@ This repository includes deep learning based project implementations I've done f
 
 1- **Facial Expression Recognition** [`Code`](python/facial-expression-recognition.py), [`Tutorial`](https://sefiks.com/2018/01/01/facial-expression-recognition-with-keras/)
 
-This is a custom CNN model. Kaggle FER 2013 data set is fed to the model. This model runs fast and produces satisfactory results.
+This is a custom CNN model. Kaggle [FER 2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) data set is fed to the model. This model runs fast and produces satisfactory results.
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
