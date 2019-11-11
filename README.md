@@ -68,6 +68,13 @@ This is the real time implementation of finding similar celebrities.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/celebrity-look-alike-real-time.jpg" width="70%" height="70%"></p>
 
+11- **Race and Ethnicity Prediction** 
+[`Tutorial`](https://sefiks.com/2019/11/11/race-and-ethnicity-prediction-in-keras/), [`AI Ethics Tutorial`](https://sefiks.com/2019/11/10/race-and-ethnicity-prediction-in-the-perspective-of-ai-ethics/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Race-Ethnicity-Prediction-Batch.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/real-time-ethnicity-prediction.py), [`Video`](https://youtu.be/-ztiy5eJha8)
+
+Ethnicity is a facial attribute as well and we can predict it from facial photos similiar to Age and Gender. We customize VGG-Face and applied transfer learning to classify 6 different race and ethnicity groups. [FairFace](https://github.com/joojs/fairface) data set is fed to the network to train.
+
+<p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2019/11/FairFace-testset.png" width="70%" height="70%"></p>
+
 11- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
 What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named [artistic style transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) enables to transform ordinary images to masterpieces.
