@@ -177,7 +177,7 @@ This repo might use some external sources. Notice that related tutorial links an
 
 # Support
 
-There are many ways to support a project - ⭐️ starring the GitHub repos is one.
+There are many ways to support a project - starring⭐️ the GitHub repos is one.
 
 # Licence
 
