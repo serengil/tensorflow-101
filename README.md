@@ -79,7 +79,7 @@ Ethnicity is a facial attribute as well and we can predict it from facial photos
 
 South China University of Technology published a research paper about facial beauty prediction. They also [open-sourced](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release) the data set. 60 labelers scored the beauty of 5500 people. We will build a regressor to find facial beauty score. We will also test the built regressor on a huge imdb data set to find the most beautiful ones.
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/12/beauty-imdb.png" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2020/01/beauty-imdb-v2.png" width="70%" height="70%"></p>
 
 13- **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
