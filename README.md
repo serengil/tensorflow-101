@@ -27,8 +27,6 @@ These are the real time implementations of the common face recognition models we
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast. 
 
-This study is mainly based on [this study](https://www.vision.ee.ethz.ch/en/publications/papers/proceedings/eth_biwi_01229.pdf). However, this study shared pre-trained weights in Caffe and use VGG model. I adapt VGG-Face instead of VGG and train the model from scratch. 
-
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/10/age-prediction-for-godfather-original.png" width="70%" height="70%"></p>
 
 **Celebrity You Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Find-Look-Alike-Celebrities.ipynb), [`Tutorial`](https://sefiks.com/2019/05/05/celebrity-look-alike-face-recognition-with-deep-learning-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/celebrity-look-alike-real-time.py), [`Video`](https://youtu.be/RMgIKU1H8DY)
@@ -40,7 +38,7 @@ Applying VGG-Face recognition technology for [imdb data set](https://data.vision
 **Race and Ethnicity Prediction** 
 [`Tutorial`](https://sefiks.com/2019/11/11/race-and-ethnicity-prediction-in-keras/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Race-Ethnicity-Prediction-Batch.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/real-time-ethnicity-prediction.py), [`Video`](https://youtu.be/-ztiy5eJha8)
 
-Ethnicity is a facial attribute as well and we can predict it from facial photos similiar to Age and Gender. We customize VGG-Face and applied transfer learning to classify 6 different race and ethnicity groups. [FairFace](https://github.com/joojs/fairface) data set is fed to the network to train.
+Ethnicity is a facial attribute as well and we can predict it from facial photos. We customize VGG-Face and we also applied transfer learning to classify 6 different ethnicity groups.
 
 <p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2019/11/FairFace-testset.png" width="70%" height="70%"></p>
 
