@@ -42,7 +42,7 @@ Ethnicity is a facial attribute as well and we can predict it from facial photos
 
 <p align="center"><img src="https://i0.wp.com/sefiks.com/wp-content/uploads/2019/11/FairFace-testset.png" width="70%" height="70%"></p>
 
-**Beauty Score Prediction** [`Tutorial`](https://sefiks.com/2019/12/25/beauty-score-prediction-with-deep-learning/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Attractive.ipynb)
+**Beauty Score Prediction** [`Tutorial`](https://sefiks.com/2019/12/25/beauty-score-prediction-with-deep-learning/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Beauty.ipynb)
 
 South China University of Technology published a research paper about facial beauty prediction. They also [open-sourced](https://github.com/HCIILAB/SCUT-FBP5500-Database-Release) the data set. 60 labelers scored the beauty of 5500 people. We will build a regressor to find facial beauty score. We will also test the built regressor on a huge imdb data set to find the most beautiful ones.
 
