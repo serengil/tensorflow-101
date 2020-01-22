@@ -48,6 +48,12 @@ South China University of Technology published a research paper about facial bea
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2020/01/beauty-imdb-v2.png" width="70%" height="70%"></p>
 
+**Attractiveness Score Prediction** [`Tutorial`](https://sefiks.com/2020/01/22/attractiveness-score-prediction-with-deep-learning/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Attracticeness.ipynb)
+
+The University of Chicago open-sourced the Chicago Face Database. The database consists of 1200 facial photos of 600 people. Facial photos are also labeled with attractiveness and babyface scores by hundreds of volunteer markers. So, we've built a machine learning model to generalize attractiveness score based on a facial photo.
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2020/01/attractiveness-cover-2.png" width="70%" height="70%"></p>
+
 **Making Arts with Deep Learning: Artistic Style Transfer** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/style-transfer.ipynb), [`Tutorial`](https://sefiks.com/2018/07/20/artistic-style-transfer-with-deep-learning/), [`Video`](https://youtu.be/QKCcJVJ0DZA)
 
 What if Vincent van Gogh had painted Istanbul Bosporus? Today we can answer this question. A deep learning technique named [artistic style transfer](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) enables to transform ordinary images to masterpieces.
