@@ -10,14 +10,22 @@ This is a custom CNN model. Kaggle [FER 2013](https://www.kaggle.com/c/challenge
 
 <p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
 
-**Face Recognition** [`VGG-Face Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb), [`VGG-Face Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/), [`Facenet Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet.ipynb), [`Facenet Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/), [`OpenFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), [`OpenFace Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/)
+**Face Recognition** 
+
+[`VGG-Face Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb), [`VGG-Face Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/)
+[`Facenet Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet.ipynb), [`Facenet Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/)
+[`OpenFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), [`OpenFace Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/)
+[`Facebook DepFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb), Facebook DeepFace Tutorial
 
 We've mentioned one of the most successful face recognition models. Oxford Visual Geometry Group (VGG) developed VGG-Face model. This model is also the winner of imagenet competition. They just tuned the weights of the same imagenet model to detect facial attributes. Moreover, Google announced its face recognition model Facenet. Furthermore, Carnegie Mellon University open-sourced its face recognition model OpenFace. 
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
 **Real Time Deep Face Recognition Implementation** 
-[`VGG-Face Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`VGG-Face Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ), [`Facenet Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Facenet Video`](https://youtu.be/vB1I5vWgTQg), [`OpenFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`OpenFace Video`](https://youtu.be/-4z2sL6wzP8)
+[`VGG-Face Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`VGG-Face Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
+[`Facenet Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Facenet Video`](https://youtu.be/vB1I5vWgTQg)
+[`OpenFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`OpenFace Video`](https://youtu.be/-4z2sL6wzP8)
+[`Facebook DeepFace Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py), Facebok DeepFace Video
 
 These are the real time implementations of the common face recognition models we've mentioned in the previous section. VGG-Face has the highest face recognition score but it comes with the high complexity among models. On the other hand, OpenFace is a pretty model and it has a close accuracy to VGG-Face but its simplicity offers high speed than others.
 
