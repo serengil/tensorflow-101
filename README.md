@@ -36,7 +36,7 @@ These are the real time implementations of the common face recognition models we
 
 • OpenFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`Video`](https://youtu.be/-4z2sL6wzP8)
 
-• **Facebook DeepFace** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py), Video
+• Facebook DeepFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py), Video
 
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/age-gender-prediction-real-time.py), [`Video`](https://youtu.be/tFI7vZn3P7E)
 
