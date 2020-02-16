@@ -36,7 +36,6 @@ if os.path.isfile(detector_path) != True:
 	raise ValueError("Confirm that opencv is installed on your environment! Expected path ",detector_path," violated.")
 else:
 	face_cascade = cv2.CascadeClassifier(detector_path)
-	print("haarcascade is oke")
 
 #-------------------------
 def detectFace(img_path, target_size=(152, 152)):
@@ -71,7 +70,7 @@ def detectFace(img_path, target_size=(152, 152)):
 
 #-------------------------
 
-#DeepFace model
+#FB DeepFace model: https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/
 base_model = Sequential()
 base_model.add(Convolution2D(32, (11, 11), activation='relu', name='C1', input_shape=(152, 152, 3)))
 base_model.add(MaxPooling2D(pool_size=3, strides=2, padding='same', name='M2'))
@@ -84,6 +83,7 @@ base_model.add(Dense(4096, activation='relu', name='F7'))
 base_model.add(Dropout(rate=0.5, name='D0'))
 base_model.add(Dense(8631, activation='softmax', name='F8'))
 
+#you can download pre-trained weights for fb deepface here: https://github.com/swghosh/DeepFace/releases
 base_model.load_weights("weights/VGGFace2_DeepFace_weights_val-0.9034.h5")
 
 model = Model(inputs=base_model.layers[0].input, outputs=base_model.layers[-3].output)
@@ -133,10 +133,7 @@ while(True):
 			
 			img_pixels = image.img_to_array(detected_face)
 			img_pixels = np.expand_dims(img_pixels, axis = 0)
-			#employee dictionary is using preprocess_image and it normalizes in scale of [-1, +1]
 			img_pixels /= 255
-			#img_pixels /= 127.5
-			#img_pixels -= 1
 			
 			captured_representation = model.predict(img_pixels)[0]
 			
@@ -147,31 +144,39 @@ while(True):
 				source_representation = employees[i]
 				
 				distance = findEuclideanDistance(l2_normalize(captured_representation), l2_normalize(source_representation))
-				
-				#print(employee_name,": ",distance)
 				distances.append(distance)
 			
-			label_name = 'unknown'
-			index = 0
+			is_found = False; index = 0
 			for i in employees:
 				employee_name = i
 				if index == np.argmin(distances):
-					if distances[index] <= 0.80:
+					if distances[index] <= 0.70:
 						
 						print("detected: ",employee_name, "(",distances[index],")")
 						employee_name = employee_name.replace("_", "")
+						similarity = distances[index]
 						
-						label_name = "%s (%s%s)" % (employee_name, str(round(distance,2)), '%')
+						is_found = True
 						
 						break
 					
 				index = index + 1
 			
-			cv2.putText(img, label_name, (int(x+w+15), int(y-64)), cv2.FONT_HERSHEY_SIMPLEX, 1, (67,67,67), 2)
+			if is_found:
+				display_img = cv2.imread("database/%s.jpg" % employee_name)
+				display_img = cv2.resize(display_img, (112, 112))
+				
+				try:	
+					img[y-120:y-120+112, x+w:x+w+112] = display_img
+
+					label = employee_name+" ("+"{0:.2f}".format(similarity)+")"
+					cv2.putText(img, label, (x+w-10, y - 120 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 					
-			#connect face and text
-			cv2.line(img,(x+w, y-64),(x+w-25, y-64),(67,67,67),1)
-			cv2.line(img,(int(x+w/2),y),(x+w-25,y-64),(67,67,67),1)
+					#connect face and text
+					cv2.line(img,(x+w, y-64),(x+w-25, y-64),(67,67,67),1)
+					cv2.line(img,(int(x+w/2),y),(x+w-25,y-64),(67,67,67),1)
+				except Exception as e:
+					print("exception occured: ", str(e))
 			
 	cv2.imshow('img',img)
 	
