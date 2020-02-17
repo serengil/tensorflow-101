@@ -70,7 +70,7 @@ def detectFace(img_path, target_size=(152, 152)):
 
 #-------------------------
 
-#FB DeepFace model: https://research.fb.com/publications/deepface-closing-the-gap-to-human-level-performance-in-face-verification/
+#DeepFace model
 base_model = Sequential()
 base_model.add(Convolution2D(32, (11, 11), activation='relu', name='C1', input_shape=(152, 152, 3)))
 base_model.add(MaxPooling2D(pool_size=3, strides=2, padding='same', name='M2'))
@@ -83,7 +83,6 @@ base_model.add(Dense(4096, activation='relu', name='F7'))
 base_model.add(Dropout(rate=0.5, name='D0'))
 base_model.add(Dense(8631, activation='softmax', name='F8'))
 
-#you can download pre-trained weights for fb deepface here: https://github.com/swghosh/DeepFace/releases
 base_model.load_weights("weights/VGGFace2_DeepFace_weights_val-0.9034.h5")
 
 model = Model(inputs=base_model.layers[0].input, outputs=base_model.layers[-3].output)
@@ -164,17 +163,49 @@ while(True):
 			
 			if is_found:
 				display_img = cv2.imread("database/%s.jpg" % employee_name)
-				display_img = cv2.resize(display_img, (112, 112))
-				
-				try:	
-					img[y-120:y-120+112, x+w:x+w+112] = display_img
-
-					label = employee_name+" ("+"{0:.2f}".format(similarity)+")"
-					cv2.putText(img, label, (x+w-10, y - 120 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+				pivot_img_size = 112
+				display_img = cv2.resize(display_img, (pivot_img_size, pivot_img_size))
+								
+				try:
+					resolution_x = img.shape[1]; resolution_y = img.shape[0]
 					
-					#connect face and text
-					cv2.line(img,(x+w, y-64),(x+w-25, y-64),(67,67,67),1)
-					cv2.line(img,(int(x+w/2),y),(x+w-25,y-64),(67,67,67),1)
+					label = employee_name+" ("+"{0:.2f}".format(similarity)+")"
+					
+					if y - pivot_img_size > 0 and x + w + pivot_img_size < resolution_x:
+						#top right
+						img[y - pivot_img_size:y, x+w:x+w+pivot_img_size] = display_img
+						cv2.putText(img, label, (x+w, y+10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (67,67,67), 1)					
+						
+						#connect face and text
+						cv2.line(img,(x+int(w/2), y), (x+3*int(w/4), y-int(pivot_img_size/2)),(67,67,67),1)
+						cv2.line(img, (x+3*int(w/4), y-int(pivot_img_size/2)), (x+w, y - int(pivot_img_size/2)), (67,67,67),1)
+					elif y + h + pivot_img_size < resolution_y and x - pivot_img_size > 0:
+						#bottom left
+						img[y+h:y+h+pivot_img_size, x-pivot_img_size:x] = display_img
+						cv2.putText(img, label, (x - pivot_img_size, y+h-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (67,67,67), 1)
+						
+						#connect face and text
+						cv2.line(img,(x+int(w/2), y+h), (x+int(w/2)-int(w/4), y+h+int(pivot_img_size/2)),(67,67,67),1)
+						cv2.line(img, (x+int(w/2)-int(w/4), y+h+int(pivot_img_size/2)), (x, y+h+int(pivot_img_size/2)), (67,67,67),1)
+						
+					elif y - pivot_img_size > 0 and x - pivot_img_size > 0:
+						#top left
+						img[y-pivot_img_size:y, x-pivot_img_size:x] = display_img
+						cv2.putText(img, label, (x - pivot_img_size, y+10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (67,67,67), 1)
+						
+						#connect face and text
+						cv2.line(img,(x+int(w/2), y), (x+int(w/2)-int(w/4), y-int(pivot_img_size/2)),(67,67,67),1)
+						cv2.line(img, (x+int(w/2)-int(w/4), y-int(pivot_img_size/2)), (x, y - int(pivot_img_size/2)), (67,67,67),1)
+						
+					elif x+w+pivot_img_size < resolution_x and y + h + pivot_img_size < resolution_y:
+						#bottom righ
+						img[y+h:y+h+pivot_img_size, x+w:x+w+pivot_img_size] = display_img
+						cv2.putText(img, label, (x+w, y+h-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (67,67,67), 1)
+						
+						#connect face and text
+						cv2.line(img,(x+int(w/2), y+h), (x+int(w/2)+int(w/4), y+h+int(pivot_img_size/2)),(67,67,67),1)
+						cv2.line(img, (x+int(w/2)+int(w/4), y+h+int(pivot_img_size/2)), (x+w, y+h+int(pivot_img_size/2)), (67,67,67),1)
+					
 				except Exception as e:
 					print("exception occured: ", str(e))
 			
