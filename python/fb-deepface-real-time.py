@@ -85,6 +85,7 @@ base_model.add(Dense(8631, activation='softmax', name='F8'))
 
 base_model.load_weights("weights/VGGFace2_DeepFace_weights_val-0.9034.h5")
 
+#Drop F8 and D0 layers. F7 is the representation layer.
 model = Model(inputs=base_model.layers[0].input, outputs=base_model.layers[-3].output)
 
 #------------------------
