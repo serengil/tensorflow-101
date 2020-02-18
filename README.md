@@ -28,7 +28,7 @@ I've mentioned one of the most successful face recognition models. Oxford Visual
 
 These are the real time implementations of the common face recognition models we've mentioned in the previous section. VGG-Face has the highest face recognition score but it comes with the high complexity among models. On the other hand, OpenFace is a pretty model and it has a close accuracy to VGG-Face but its simplicity offers high speed than others.
 
-<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/07/openface-demo-cover.jpg" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2020/02/deepface-cover.jpg" width="70%" height="70%"></p>
 
 • VGG-Face [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
