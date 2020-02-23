@@ -38,6 +38,12 @@ These are the real time implementations of the common face recognition models we
 
 • Facebook DeepFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py), [`Video`](https://youtu.be/YjYIMs5ZOfc)
 
+**Face Alignment for Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/face-alignment.py), [`Tutorial`](https://sefiks.com/2020/02/23/face-alignment-for-face-recognition-in-python-within-opencv/)
+
+Google declared that face alignment increase its face recognition model accuracy from 98.87% to 99.63%. This is almost 1% accuracy improvement which means a lot for engineering studies.
+
+<p align="center"><img src="http://sefiks.com/wp-content/uploads/2020/02/rotate-from-scratch.jpg" width="70%" height="70%"></p>
+
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/age-gender-prediction-real-time.py), [`Video`](https://youtu.be/tFI7vZn3P7E)
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast. 
