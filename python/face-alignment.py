@@ -61,23 +61,7 @@ def alignFace(img_path):
 		#--------------------
 		#decide left and right eye
 		
-		index = 0
-		for (eye_x, eye_y, eye_w, eye_h) in eyes:
-			if eye_w > 30:
-				
-				if index == 0:
-					eye_1 = (eye_x, eye_y, eye_w, eye_h)
-					color = (0,127,255) #orange
-				elif index == 1:
-					eye_2 = (eye_x, eye_y, eye_w, eye_h)
-					#color = (0,255,255) #yellow
-					color = (0,127,255)
-				
-				#cv2.rectangle(img,(eye_x, eye_y),(eye_x+eye_w, eye_y+eye_h), color, 2)
-				index = index + 1
-		
-		#plt.imshow(img[:,:,::-1])
-		#plt.show()
+		eye_1 = eyes[0]; eye_2 = eyes[1]
 		
 		if eye_1[0] < eye_2[0]:
 			left_eye = eye_1
