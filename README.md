@@ -12,13 +12,13 @@ This is a custom CNN model. Kaggle [FER 2013](https://www.kaggle.com/c/challenge
 
 **Face Recognition** 
 
-I've mentioned one of the most successful face recognition models. Oxford Visual Geometry Group (VGG) developed VGG-Face model. This model is also the winner of imagenet competition. They just tuned the weights of the same imagenet model to detect facial attributes. Moreover, Google announced its face recognition model Facenet. Furthermore, Carnegie Mellon University open-sourced its face recognition model OpenFace. Finally, Facebook AI Research team announced DeepFace model and it has a close performance to the human level.
+I've mentioned one of the most successful face recognition models. Oxford Visual Geometry Group (VGG) developed VGG-Face model. This model is also the winner of imagenet competition. They just tuned the weights of the same imagenet model to detect facial attributes. Moreover, Google announced its face recognition model FaceNet. Furthermore, Carnegie Mellon University open-sourced its face recognition model OpenFace. Finally, Facebook AI Research team announced DeepFace model and it has a close performance to the human level.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
 • VGG-Face [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb), [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/)
 
-• Facenet [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/)
+• FaceNet [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet.ipynb), [`Tutorial`](https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/)
 
 • OpenFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb), [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/)
 
@@ -32,7 +32,7 @@ These are the real time implementations of the common face recognition models we
 
 • VGG-Face [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
-• Facenet [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Video`](https://youtu.be/vB1I5vWgTQg)
+• FaceNet [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Video`](https://youtu.be/vB1I5vWgTQg)
 
 • OpenFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`Video`](https://youtu.be/-4z2sL6wzP8)
 
