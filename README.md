@@ -29,13 +29,12 @@ These are the real time implementations of the common face recognition models we
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2020/02/deepface-cover.jpg" width="90%" height="90%"></p>
 
-• VGG-Face [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
-
-• FaceNet [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py), [`Video`](https://youtu.be/vB1I5vWgTQg)
-
-• OpenFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py), [`Video`](https://youtu.be/-4z2sL6wzP8)
-
-• Facebook DeepFace [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py), [`Video`](https://youtu.be/YjYIMs5ZOfc)
+| Model | Code | Demo |
+| ---   | ---  | ---   |
+| VGG-Face | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py) | [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ) |
+| Google FaceNet | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/facenet-real-time.py) | [`Video`](https://youtu.be/vB1I5vWgTQg) |
+| Facebook DeepFace | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py) | [`Video`](https://youtu.be/YjYIMs5ZOfc) |
+| OpenFace | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py) | [`Video`](https://youtu.be/-4z2sL6wzP8) |
 
 **Face Alignment for Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/face-alignment.py), [`Tutorial`](https://sefiks.com/2020/02/23/face-alignment-for-face-recognition-in-python-within-opencv/)
 
