@@ -16,6 +16,8 @@ I've mentioned one of the most successful face recognition models. Oxford Visual
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
 
+| Model | Code | Tutorial |
+| --- | --- |
 | VGG-Face | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | Google FaceNet |  [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | Facebook DeepFace | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
