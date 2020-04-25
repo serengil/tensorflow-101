@@ -40,23 +40,25 @@ These are the real time implementations of the common face recognition models we
 | Facebook DeepFace | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py) | [`Video`](https://youtu.be/YjYIMs5ZOfc) |
 | OpenFace | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py) | [`Video`](https://youtu.be/-4z2sL6wzP8) |
 
-**Face Alignment for Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/face-alignment.py), [`Tutorial`](https://sefiks.com/2020/02/23/face-alignment-for-face-recognition-in-python-within-opencv/)
-
-Google declared that face alignment increase its face recognition model accuracy from 98.87% to 99.63%. This is almost 1% accuracy improvement which means a lot for engineering studies.
-
-<p align="center"><img src="http://sefiks.com/wp-content/uploads/2020/02/rotate-from-scratch.jpg" width="70%" height="70%"></p>
-
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/age-gender-prediction-real-time.py), [`Video`](https://youtu.be/tFI7vZn3P7E)
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast. 
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/10/age-prediction-for-godfather-original.png" width="70%" height="70%"></p>
 
+We can run age and gender prediction in real time as well
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/02/age-real-time.jpg" width="50%" height="50%"></p>
+
 **Celebrity You Look-Alike Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Find-Look-Alike-Celebrities.ipynb), [`Tutorial`](https://sefiks.com/2019/05/05/celebrity-look-alike-face-recognition-with-deep-learning-in-keras/), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/celebrity-look-alike-real-time.py), [`Video`](https://youtu.be/RMgIKU1H8DY)
 
 Applying VGG-Face recognition technology for [imdb data set](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) will find your celebrity look-alike if you discard the threshold in similarity score.
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/sefik-looks-alike-colin-hanks.jpg" width="50%" height="50%"></p>
+
+This can be run in real time as well
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/05/celebrity-look-alike-real-time.jpg" width="70%" height="70%"></p>
 
 **Race and Ethnicity Prediction** 
 [`Tutorial`](https://sefiks.com/2019/11/11/race-and-ethnicity-prediction-in-keras/), [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Race-Ethnicity-Prediction-Batch.ipynb), [`Real Time Code`](https://github.com/serengil/tensorflow-101/blob/master/python/real-time-ethnicity-prediction.py), [`Video`](https://youtu.be/-ztiy5eJha8)
@@ -133,6 +135,11 @@ This is the 1957 model implementation of the perceptron.
 
 <p align="center"><img src="https://i1.wp.com/sefiks.com/wp-content/uploads/2018/05/perceptron.png" width="50%" height="50%"></p>
 
+**Face Alignment for Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/face-alignment.py), [`Tutorial`](https://sefiks.com/2020/02/23/face-alignment-for-face-recognition-in-python-within-opencv/)
+
+Google declared that face alignment increase its face recognition model accuracy from 98.87% to 99.63%. This is almost 1% accuracy improvement which means a lot for engineering studies.
+
+<p align="center"><img src="http://sefiks.com/wp-content/uploads/2020/02/rotate-from-scratch.jpg" width="70%" height="70%"></p>
 
 # Requirements
 
