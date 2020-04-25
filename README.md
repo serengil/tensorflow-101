@@ -8,7 +8,11 @@ This repository includes deep learning based project implementations I've done f
 
 This is a custom CNN model. Kaggle [FER 2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) data set is fed to the model. This model runs fast and produces satisfactory results. It can be also run real time as well.
 
-<p align="center"><img src="https://i2.wp.com/sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2017/12/pablo-facial-expression.png" width="70%" height="70%"></p>
+
+We can run emotion analysis in real time as well
+
+<p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
 **Face Recognition** 
 
