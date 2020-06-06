@@ -14,7 +14,7 @@ We can run emotion analysis in real time as well
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/real-time-emotion-mark.png" width="70%" height="70%"></p>
 
-**Face Recognition** 
+**Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb), [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/)
 
 I've mentioned one of the most successful face recognition models. Oxford Visual Geometry Group (VGG) developed VGG-Face model. This model is also the winner of imagenet competition. They just tuned the weights of the same imagenet model to detect facial attributes. Moreover, Google announced its face recognition model FaceNet. Furthermore, Carnegie Mellon University open-sourced its face recognition model OpenFace. Finally, Facebook AI Research team announced DeepFace model and it has a close performance to the human level.
 
@@ -27,7 +27,7 @@ I've mentioned one of the most successful face recognition models. Oxford Visual
 | DeepFace | Facebook | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
 | OpenFace | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb) | [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/) |
 
-**Real Time Deep Face Recognition Implementation** 
+**Real Time Deep Face Recognition Implementation** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
 These are the real time implementations of the common face recognition models we've mentioned in the previous section. VGG-Face has the highest face recognition score but it comes with the high complexity among models. On the other hand, OpenFace is a pretty model and it has a close accuracy to VGG-Face but its simplicity offers high speed than others.
 
