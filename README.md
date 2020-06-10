@@ -16,9 +16,11 @@ We can run emotion analysis in real time as well [`Real Time Code`](https://gith
 
 **Face Recognition** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb), [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/)
 
-I've mentioned one of the most successful face recognition models. Oxford Visual Geometry Group (VGG) developed VGG-Face model. This model is also the winner of imagenet competition. They just tuned the weights of the same imagenet model to detect facial attributes. Moreover, Google announced its face recognition model FaceNet. Furthermore, Carnegie Mellon University open-sourced its face recognition model OpenFace. Finally, Facebook AI Research team announced DeepFace model and it has a close performance to the human level.
+Face recognition is mainly based on convolutional neural networks. We feed two face images to a CNN model and it returns a multi-dimensional vector representations. We then compare these representations to determine these two face images are same person or not. 
 
 <p align="center"><img src="https://sefiks.com/wp-content/uploads/2019/01/face-recognition-demo.png" width="70%" height="70%"></p>
+
+You can find the most popular face recognition models below.
 
 | Model | Creator | Code | Tutorial |
 | ---   | --- | ---  | --- |
