@@ -188,6 +188,19 @@ You can also support this project through Patreon.
 
 <a href="https://www.patreon.com/bePatron?u=31795557"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png"></img></a>
 
+# Citation
+
+Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
+
+```
+@misc{serengil2019tensorflow101,
+  title={tensorflow-101},
+  author={Serengil, Sefik Ilkin},
+  year={2019},
+  howpublished={\url{https://github.com/serengil/tensorflow-101}},
+}
+```
+
 # Licence
 
 This repository is licensed under MIT license - see [`LICENSE`](https://github.com/serengil/tensorflow-101/blob/master/LICENSE) for more details
