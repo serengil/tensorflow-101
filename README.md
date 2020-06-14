@@ -194,10 +194,11 @@ Please cite tensorflow-101 in your publications if it helps your research. Here 
 
 ```
 @misc{serengil2017tensorflow101,
-  title={TensorFlow 101: Introduction to Deep Learning},
+  abstract = {TensorFlow 101: Introduction to Deep Learning for Python Within TensorFlow},
   author={Serengil, Sefik Ilkin},
-  year={2017},
-  howpublished={\url{https://github.com/serengil/tensorflow-101}},
+  title={tensorflow-101},
+  url={https://github.com/serengil/tensorflow-101},
+  year={2017}
 }
 ```
 
