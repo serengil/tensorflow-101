@@ -193,10 +193,10 @@ You can also support this project through Patreon.
 Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
 
 ```
-@misc{serengil2019tensorflow101,
-  title={tensorflow-101},
+@misc{serengil2017tensorflow101,
+  title={TensorFlow 101: Introduction to Deep Learning},
   author={Serengil, Sefik Ilkin},
-  year={2019},
+  year={2017},
   howpublished={\url{https://github.com/serengil/tensorflow-101}},
 }
 ```
