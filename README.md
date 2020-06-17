@@ -28,6 +28,7 @@ You can find the most popular face recognition models below.
 | FaceNet | Google | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | DeepFace | Facebook | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
 | OpenFace | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb) | [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/) |
+| DeepID | The Chinese University of Hong Kong | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/DeepID.ipynb) | [`Tutorial`](https://sefiks.com/2020/06/16/face-recognition-with-deepid-in-keras/) |
 
 **Real Time Deep Face Recognition Implementation** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
