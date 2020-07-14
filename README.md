@@ -186,10 +186,6 @@ This repo might use some external sources. Notice that related tutorial links an
 
 There are many ways to support a project - starring⭐️ the GitHub repos is one.
 
-You can also support this project through Patreon.
-
-<a href="https://www.patreon.com/bePatron?u=31795557"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png"></img></a>
-
 # Citation
 
 Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
