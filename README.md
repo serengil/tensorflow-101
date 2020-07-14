@@ -29,7 +29,8 @@ You can find the most popular face recognition models below.
 | DeepFace | Facebook | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
 | OpenFace | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb) | [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/) |
 | DeepID | The Chinese University of Hong Kong | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/DeepID.ipynb) | [`Tutorial`](https://sefiks.com/2020/06/16/face-recognition-with-deepid-in-keras/) |
-| Dlib | Davis E. King | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Dlib-Face-Recognition.ipynb) | Tutorial |
+| Dlib | Davis E. King | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Dlib-Face-Recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/11/face-recognition-with-dlib-in-python/) |
+| OpenCV | - | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/14/a-beginners-guide-to-face-recognition-with-opencv-in-python/) |
 
 **Real Time Deep Face Recognition Implementation** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
