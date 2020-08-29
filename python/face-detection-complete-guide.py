@@ -5,6 +5,7 @@ import pandas as pd
 import os
 import time
 import dlib
+from mtcnn import MTCNN
 
 #--------------------------------------------
 
@@ -27,7 +28,10 @@ def get_opencv_path():
 #--------------------------------------------
 
 #opencv ssd
+#model structure: https://github.com/opencv/opencv/raw/3.4.0/samples/dnn/face_detector/deploy.prototxt
+#pre-trained weights: https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel
 ssd_detector = cv2.dnn.readNetFromCaffe("deploy.prototxt", "res10_300x300_ssd_iter_140000.caffemodel")
+ssd_labels = ["img_id", "is_face", "confidence", "left", "top", "right", "bottom"]
 
 #opencv haar cascade
 opencv_path = get_opencv_path()
@@ -35,20 +39,26 @@ haar_detector_path = opencv_path+"haarcascade_frontalface_default.xml"
 haar_detector = cv2.CascadeClassifier(haar_detector_path)
 
 #dlib
-detector = dlib.get_frontal_face_detector()
-sp = dlib.shape_predictor("shape_predictor_5_face_landmarks.dat")
+dlib_detector = dlib.get_frontal_face_detector()
+
+#dlib cnn
+#pre-trained model: http://dlib.net/files/mmod_human_face_detector.dat.bz2
+cnn_face_detector = dlib.cnn_face_detection_model_v1("mmod_human_face_detector.dat")
+
+#mtcnn
+mtcnn_detector = MTCNN()
 
 #--------------------------------------------
 
-ssd_labels = ["img_id", "is_face", "confidence", "left", "top", "right", "bottom"]
+detector_models = ['ssd', 'haar', 'dlib', 'mtcnn', 'dlib_cnn']
+detector_model = detector_models[3]
+print("Detector: ", detector_model)
 
 #--------------------------------------------
 
 cap = cv2.VideoCapture('zuckerberg.mp4')
 
-#detector_model = 'ssd'
-#detector_model = 'haar'
-detector_model = 'dlib'
+#--------------------------------------------
 
 quit = False
 tic = time.time()
@@ -128,7 +138,7 @@ while(True):
 			
 			#img = dlib.load_rgb_image("img1.jpg")
 			
-			detections = detector(img, 1)
+			detections = dlib_detector(img, 1)
 			#print("detected faces: ",len(detections))
 			
 			for idx, d in enumerate(detections):
@@ -136,11 +146,41 @@ while(True):
 				top = d.top(); bottom = d.bottom()
 				
 				cv2.rectangle(img, (left, top), (right, bottom),(255,255,255), 1) #highlight detected face
+		
+		elif detector_model == 'dlib_cnn':
+			
+			detections = cnn_face_detector(img, 1)
+			
+			for idx, d in enumerate(detections):
+				
+				confidence_score = str(round(100*d.confidence, 2))+'%'
+				left = d.rect.left()
+				right = d.rect.right()
+				top = d.rect.top()
+				bottom = d.rect.bottom()
+				
+				cv2.putText(img, confidence_score, (left, top), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+					
+				cv2.rectangle(img, (left, top), (right, bottom), (255, 255, 255), 1) 
+		
+		elif detector_model == 'mtcnn':
+			
+			#img = dlib.load_rgb_image("img1.jpg")
+						
+			detections = mtcnn_detector.detect_faces(img)
+			
+			for detection in detections:
+				confidence_score = str(round(100*detection["confidence"], 2))+"%"
+				x, y, w, h = detection["box"]
+				
+				cv2.putText(img, confidence_score, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+				
+				cv2.rectangle(img, (x, y), (x+w, y+h),(255,255,255), 1) #highlight detected face
 			
 		#----------------------------
 	
-		cv2.imshow('img',img)
-		#cv2.imwrite( "%s/%s.jpg" % (detector_model, str(frame)), img );
+		#cv2.imshow('img',img)
+		cv2.imwrite( "%s/%s.jpg" % (detector_model, str(frame)), img );
 		frame = frame + 1
 	except Exception as e:
 		quit = True
