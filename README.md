@@ -32,7 +32,7 @@ You can find the most popular face recognition models below.
 | Dlib | Davis E. King | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Dlib-Face-Recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/11/face-recognition-with-dlib-in-python/) |
 | OpenCV | OpenCV Foundation | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/14/a-beginners-guide-to-face-recognition-with-opencv-in-python/) |
 | OpenFace with OpenCV DNN | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
-| SphereFace | Georgia Institute of Technology | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | Tutorial |
+| SphereFace | Georgia Institute of Technology | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/10/19/face-recognition-with-sphereface-in-python/) |
 
 **Real Time Deep Face Recognition Implementation** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
