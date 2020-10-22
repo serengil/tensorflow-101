@@ -24,7 +24,7 @@ You can find the most popular face recognition models below.
 
 | Model | Creator | LFW Score | Code | Tutorial |
 | ---   | --- | --- | ---  | --- |
-| VGG-Face | Oxford University | 98.78 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
+| VGG-Face | The University of Oxford | 98.78 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | FaceNet | Google | 99.65 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | DeepFace | Facebook | 97.35* | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
 | OpenFace | Carnegie Mellon University | 92.92* | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb) | [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/) |
