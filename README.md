@@ -31,7 +31,7 @@ You can find the most popular face recognition models below.
 | DeepID | The Chinese University of Hong Kong | 99.47* | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/DeepID.ipynb) | [`Tutorial`](https://sefiks.com/2020/06/16/face-recognition-with-deepid-in-keras/) |
 | Dlib | Davis E. King | 99.38 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Dlib-Face-Recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/11/face-recognition-with-dlib-in-python/) |
 | OpenCV | OpenCV Foundation | - | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/14/a-beginners-guide-to-face-recognition-with-opencv-in-python/) |
-| OpenFace with OpenCV DNN | 92.92 | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
+| OpenFace with OpenCV DNN | Carnegie Mellon University | 92.92 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
 | SphereFace | Georgia Institute of Technology | 99.30 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/10/19/face-recognition-with-sphereface-in-python/) |
 
 * those state the LFW accuracy score of the original study but these are re-implementations and they might have different score than the original study.
