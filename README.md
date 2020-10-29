@@ -34,7 +34,9 @@ You can find the most popular face recognition models below.
 | OpenFace in OpenCV | Carnegie Mellon University | 92.92 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
 | SphereFace | Georgia Institute of Technology | 99.30 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/10/19/face-recognition-with-sphereface-in-python/) |
 
-&#42; state the LFW accuracy score of the original study but these are re-implementations and they might have different score than the original study.
+&#42; these are re-implementations and they might have different score than the original study.
+
+All of those state-of-the-art face recognition models are wrapped in ['deepface library for python'](https://github.com/serengil/deepface). You can build and run them with a few lines of code. To have more information, please visit the repo of the library.
 
 **Real Time Deep Face Recognition Implementation** [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/deep-face-real-time.py), [`Video`](https://www.youtube.com/watch?v=tSU_lNi0gQQ)
 
