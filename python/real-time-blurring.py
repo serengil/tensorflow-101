@@ -17,7 +17,7 @@ def blur_img(img, factor = 20):
     kW = int(img.shape[1] / factor)
     kH = int(img.shape[0] / factor)
 	
-	#ensure the shape of the kernel is odd
+    #ensure the shape of the kernel is odd
     if kW % 2 == 0: kW -= 1
     if kH % 2 == 0: kH -= 1
     
@@ -52,25 +52,24 @@ def extract_indexes(length, step_size):
     
     return indexes
 
-detector = MTCNN()
-
 #-----------------------
 
 if backend == 'haar':
-	#OpenCV haarcascade module
+    #OpenCV haarcascade module
+    opencv_home = cv2.__file__
+    folders = opencv_home.split(os.path.sep)[0:-1]
+    path = folders[0]
+    for folder in folders[1:]:
+        path = path + "/" + folder
 
-	opencv_home = cv2.__file__
-	folders = opencv_home.split(os.path.sep)[0:-1]
-	path = folders[0]
-	for folder in folders[1:]:
-		path = path + "/" + folder
+    detector_path = path+"/data/haarcascade_frontalface_default.xml"
 
-	detector_path = path+"/data/haarcascade_frontalface_default.xml"
-
-	if os.path.isfile(detector_path) != True:
-		raise ValueError("Confirm that opencv is installed on your environment! Expected path ",detector_path," violated.")
-	else:
-		face_cascade = cv2.CascadeClassifier(detector_path)
+    if os.path.isfile(detector_path) != True:
+        raise ValueError("Confirm that opencv is installed on your environment! Expected path ",detector_path," violated.")
+    else:
+        face_cascade = cv2.CascadeClassifier(detector_path)
+elif backend == 'mtcnn':
+    detector = MTCNN()
 #------------------------
 
 cap = cv2.VideoCapture("zuckerberg.mp4") #0 for webcam or video
