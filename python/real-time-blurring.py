@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 
 #-----------------------
 
-case = 'pixelated' #background, face, pixelated
+case = 'background' #background, face, pixelated
 backend = 'mtcnn' #haar, mtcnn
+mode = 'display' #record, display
 
 #-----------------------
 def blur_img(img, factor = 20):
@@ -52,24 +53,25 @@ def extract_indexes(length, step_size):
     
     return indexes
 
+detector = MTCNN()
+
 #-----------------------
 
 if backend == 'haar':
-    #OpenCV haarcascade module
-    opencv_home = cv2.__file__
-    folders = opencv_home.split(os.path.sep)[0:-1]
-    path = folders[0]
-    for folder in folders[1:]:
-        path = path + "/" + folder
+	#OpenCV haarcascade module
 
-    detector_path = path+"/data/haarcascade_frontalface_default.xml"
+	opencv_home = cv2.__file__
+	folders = opencv_home.split(os.path.sep)[0:-1]
+	path = folders[0]
+	for folder in folders[1:]:
+		path = path + "/" + folder
 
-    if os.path.isfile(detector_path) != True:
-        raise ValueError("Confirm that opencv is installed on your environment! Expected path ",detector_path," violated.")
-    else:
-        face_cascade = cv2.CascadeClassifier(detector_path)
-elif backend == 'mtcnn':
-    detector = MTCNN()
+	detector_path = path+"/data/haarcascade_frontalface_default.xml"
+
+	if os.path.isfile(detector_path) != True:
+		raise ValueError("Confirm that opencv is installed on your environment! Expected path ",detector_path," violated.")
+	else:
+		face_cascade = cv2.CascadeClassifier(detector_path)
 #------------------------
 
 cap = cv2.VideoCapture("zuckerberg.mp4") #0 for webcam or video
@@ -85,7 +87,7 @@ while(True):
 	base_img = img.copy()
 	
 	if case == 'background':
-		img = blur_img(img, factor = 30)
+		img = blur_img(img, factor = 70)
 	
 	for detection in faces:
 		
@@ -133,11 +135,12 @@ while(True):
 							iteration = iteration + 1
 				
 					img[y:y+h, x:x+w] = pixelated_face
-			
-	cv2.imshow('img',img)
-	#cv2.imwrite('outputs_%s/%d.png' % (backend, frame), img)
-		
-	#if frame % 50 == 0: print(frame)
+	
+	if mode == 'display':
+		cv2.imshow('img',img)
+	elif mode == 'record':
+		cv2.imwrite('outputs_%s/%d.png' % (backend, frame), img)
+		if frame % 50 == 0: print(frame)
 	
 	frame = frame + 1
 	
