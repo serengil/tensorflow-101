@@ -51,6 +51,17 @@ These are the real time implementations of the common face recognition models we
 | DeepFace | Facebook | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/fb-deepface-real-time.py) | [`Video`](https://youtu.be/YjYIMs5ZOfc) |
 | OpenFace | Carnegie Mellon University | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface-real-time.py) | [`Video`](https://youtu.be/-4z2sL6wzP8) |
 
+**Large Scale Face Recognition**
+
+Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets. Herein, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
+
+| Library | Creator | Tutorial | Demo |
+| ---   | --- | ---  | --- |
+| Annoy | Spotify | [`Turorial`](https://sefiks.com/2020/09/16/large-scale-face-recognition-with-spotify-annoy/) | [`Video`](https://youtu.be/Jpxm914o2xk) |
+| Faiss | Facebook | [`Turorial`](https://sefiks.com/2020/09/17/large-scale-face-recognition-with-facebook-faiss/) | - |
+| NMSLIB | - | [`Turorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | - |
+| Elasticsearch | Elastic NV | [`Turorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
+
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb)
 
 We've used VGG-Face model for apparent age prediction this time. We actually applied transfer learning. Locking the early layers' weights enables to have outcomes fast. 
