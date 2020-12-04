@@ -53,7 +53,7 @@ These are the real time implementations of the common face recognition models we
 
 **Large Scale Face Recognition**
 
-Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets. Herein, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
+Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets (millions or billions level data). Herein, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
 
 | Library | Creator | Tutorial | Demo |
 | ---   | --- | ---  | --- |
