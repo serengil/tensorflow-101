@@ -33,6 +33,7 @@ You can find the most popular face recognition models below.
 | OpenCV | OpenCV Foundation | - | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/14/a-beginners-guide-to-face-recognition-with-opencv-in-python/) |
 | OpenFace in OpenCV | Carnegie Mellon University | 92.92 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
 | SphereFace | Georgia Institute of Technology | 99.30 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/10/19/face-recognition-with-sphereface-in-python/) |
+| ArcFace | Imperial College London | 99.40 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/ArcFace.ipynb) | Tutorial |
 
 &#42; these are re-implementations and they might have different score than the original study.
 
