@@ -28,14 +28,12 @@ You can find the most popular face recognition models below.
 | FaceNet | Google | 99.65 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/vgg-face.ipynb) | [`Tutorial`](https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/) |
 | DeepFace | Facebook | 97.35* | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Facebook-Deepface.ipynb) | [`Tutorial`](https://sefiks.com/2020/02/17/face-recognition-with-facebook-deepface-in-keras/) |
 | OpenFace | Carnegie Mellon University | 93.80 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/openface.ipynb) | [`Tutorial`](https://sefiks.com/2019/07/21/face-recognition-with-openface-in-keras/) |
-| DeepID | The Chinese University of Hong Kong | 99.47* | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/DeepID.ipynb) | [`Tutorial`](https://sefiks.com/2020/06/16/face-recognition-with-deepid-in-keras/) |
+| DeepID | The Chinese University of Hong Kong | 97.05 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/DeepID.ipynb) | [`Tutorial`](https://sefiks.com/2020/06/16/face-recognition-with-deepid-in-keras/) |
 | Dlib | Davis E. King | 99.38 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Dlib-Face-Recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/11/face-recognition-with-dlib-in-python/) |
 | OpenCV | OpenCV Foundation | - | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/14/a-beginners-guide-to-face-recognition-with-opencv-in-python/) |
 | OpenFace in OpenCV | Carnegie Mellon University | 92.92 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/opencv-dnn-face-recognition.ipynb) | [`Tutorial`](https://sefiks.com/2020/07/24/face-recognition-with-opencv-dnn-in-python/) |
 | SphereFace | Georgia Institute of Technology | 99.30 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/SphereFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/10/19/face-recognition-with-sphereface-in-python/) |
 | ArcFace | Imperial College London | 99.40 | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/ArcFace.ipynb) | [`Tutorial`](https://sefiks.com/2020/12/14/deep-face-recognition-with-arcface-in-keras-and-python/) |
-
-&#42; these are re-implementations and they might have different score than the original study.
 
 All of those state-of-the-art face recognition models are wrapped in [deepface library for python](https://github.com/serengil/deepface). You can build and run them with a few lines of code. To have more information, please visit the [repo](https://github.com/serengil/deepface) of the library.
 
