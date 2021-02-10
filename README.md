@@ -52,14 +52,18 @@ These are the real time implementations of the common face recognition models we
 
 **Large Scale Face Recognition**
 
-Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets (millions or billions level data). Herein, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
+Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets (millions or billions level data). Herein, if you have a really strong database, then you use relational databases and regular SQL. Besides, you can store facial embeddings in nosql databases. In this way, you can have the power of the map reduce technology. Besides, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
 
-| Library | Creator | Tutorial | Demo |
-| ---   | --- | ---  | --- |
-| Annoy | Spotify | [`Turorial`](https://sefiks.com/2020/09/16/large-scale-face-recognition-with-spotify-annoy/) | [`Video`](https://youtu.be/Jpxm914o2xk) |
-| Faiss | Facebook | [`Turorial`](https://sefiks.com/2020/09/17/large-scale-face-recognition-with-facebook-faiss/) | - |
-| NMSLIB | - | [`Turorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | - |
-| Elasticsearch | Elastic NV | [`Turorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
+| Library | Algorithm | Tutorial | Code | Demo |
+| ---   | --- | --- | ---  | --- | --- |
+| Spotify Annoy | a-nn | [`Tutorial`](https://sefiks.com/2020/09/16/large-scale-face-recognition-with-spotify-annoy/) | - | [`Video`](https://youtu.be/Jpxm914o2xk) |
+| Facebook Faiss | a-nn | [`Tutorial`](https://sefiks.com/2020/09/17/large-scale-face-recognition-with-facebook-faiss/) | - | - |
+| NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [Code](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
+| Elasticsearch | a-nn | [`Tutorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Elastic-Face.ipynb) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
+| mongoDB | k-NN | [`Tutorial`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | [`Code`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | - |
+| Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | - |
+| Hadoop | k-NN | [`Tutorial`](https://sefiks.com/2021/01/31/deep-face-recognition-with-hadoop-and-spark/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/PySpark-Face-Recognition.ipynb) | - |
+| Relational Database | k-NN | [`Tutorial`](https://sefiks.com/2021/02/06/deep-face-recognition-with-sql/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Face-Recognition-SQL.ipynb) | - |
 
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb)
 
