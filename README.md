@@ -55,7 +55,7 @@ These are the real time implementations of the common face recognition models we
 Face recognition requires to apply face verification several times. It has a O(n) time complexity and it would be problematic for very large scale data sets (millions or billions level data). Herein, if you have a really strong database, then you use relational databases and regular SQL. Besides, you can store facial embeddings in nosql databases. In this way, you can have the power of the map reduce technology. Besides, approximate nearest neighbor (a-nn) algorithm reduces time complexity dramatically. Spotify Annoy, Facebook Faiss and NMSLIB are amazing a-nn libraries. Besides, Elasticsearch wraps NMSLIB and it also offers highly scalablity. You should build and run face recognition models within those a-nn libraries if you have really large scale data sets.
 
 | Library | Algorithm | Tutorial | Code | Demo |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | Spotify Annoy | a-nn | [`Tutorial`](https://sefiks.com/2020/09/16/large-scale-face-recognition-with-spotify-annoy/) | - | [`Video`](https://youtu.be/Jpxm914o2xk) |
 | Facebook Faiss | a-nn | [`Tutorial`](https://sefiks.com/2020/09/17/large-scale-face-recognition-with-facebook-faiss/) | - | - |
 | NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [Code](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
