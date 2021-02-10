@@ -203,7 +203,7 @@ This repo might use some external sources. Notice that related tutorial links an
 
 There are many ways to support a project - starring⭐️ the GitHub repos is one.
 
-You can also support this project on [Patreon](https://www.patreon.com/serengil) 🙏.
+You can also support this project on [Patreon](https://www.patreon.com/serengil) 🙏
 
 <p align="left"><a href="https://www.patreon.com/serengil"><img src="https://github.com/serengil/deepface/blob/master/icon/patreon.png" width="30%"></a></p>
 
