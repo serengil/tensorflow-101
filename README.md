@@ -58,7 +58,7 @@ Face recognition requires to apply face verification several times. It has a O(n
 | --- | --- | --- | --- | --- | 
 | Spotify Annoy | a-nn | [`Tutorial`](https://sefiks.com/2020/09/16/large-scale-face-recognition-with-spotify-annoy/) | - | [`Video`](https://youtu.be/Jpxm914o2xk) |
 | Facebook Faiss | a-nn | [`Tutorial`](https://sefiks.com/2020/09/17/large-scale-face-recognition-with-facebook-faiss/) | - | - |
-| NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [Code](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
+| NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
 | Elasticsearch | a-nn | [`Tutorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Elastic-Face.ipynb) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
 | mongoDB | k-NN | [`Tutorial`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | [`Code`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | - |
 | Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | - |
