@@ -65,9 +65,11 @@ Face recognition requires to apply face verification several times. It has a O(n
 | NMSLIB | a-nn | [`Tutorial`](https://sefiks.com/2020/09/19/large-scale-face-recognition-with-nmslib/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/nmslib-fast-search.ipynb) | - |
 | Elasticsearch | a-nn | [`Tutorial`](https://sefiks.com/2020/11/27/large-scale-face-recognition-with-elasticsearch/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Elastic-Face.ipynb) | [`Video`](https://youtu.be/i4GvuOmzKzo) |
 | mongoDB | k-NN | [`Tutorial`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | [`Code`](https://sefiks.com/2021/01/22/deep-face-recognition-with-mongodb/) | - |
-| Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | - |
+| Cassandra | k-NN | [`Tutorial`](https://sefiks.com/2021/01/24/deep-face-recognition-with-cassandra/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Cassandra-Face-Recognition.ipynb) | [`Video`](https://youtu.be/VQqHs6-4Ylg) |
+| Redis | k-NN | [`Tutorial`](https://sefiks.com/2021/03/02/deep-face-recognition-with-redis/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Redis-Face-Recognition.ipynb) | [`Video`](https://youtu.be/eo-fTv4eYzo) |
 | Hadoop | k-NN | [`Tutorial`](https://sefiks.com/2021/01/31/deep-face-recognition-with-hadoop-and-spark/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/PySpark-Face-Recognition.ipynb) | - |
 | Relational Database | k-NN | [`Tutorial`](https://sefiks.com/2021/02/06/deep-face-recognition-with-sql/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Face-Recognition-SQL.ipynb) | - |
+| Neo4j Graph| k-NN | [`Tutorial`](https://sefiks.com/2021/04/03/deep-face-recognition-with-neo4j/) | [`Code`](https://github.com/serengil/tensorflow-101/blob/master/python/Neo4j-Face-Recognition.ipynb) | [`Video`](https://youtu.be/X-hB2kBFBXs) |
 
 **Apparent Age and Gender Prediction** [`Tutorial`](https://sefiks.com/2019/02/13/apparent-age-and-gender-prediction-in-keras/), [`Code for age`](https://github.com/serengil/tensorflow-101/blob/master/python/apparent_age_prediction.ipynb), [`Code for gender`](https://github.com/serengil/tensorflow-101/blob/master/python/gender_prediction.ipynb)
 
