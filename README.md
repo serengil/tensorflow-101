@@ -212,10 +212,6 @@ This repo might use some external sources. Notice that related tutorial links an
 
 There are many ways to support a project - starring⭐️ the GitHub repos is one.
 
-You can also support this project on [Patreon](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31) 🙏
-
-<p align="left"><a href="https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31"><img src="https://github.com/serengil/deepface/blob/master/icon/patreon.png" width="30%"></a></p>
-
 # Citation
 
 Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
