@@ -2,7 +2,6 @@
 
 [![Stars](https://img.shields.io/github/stars/serengil/tensorflow-101)](https://github.com/serengil/tensorflow-101)
 [![License](http://img.shields.io/:license-MIT-green.svg?style=flat)](https://github.com/serengil/tensorflow-101/blob/master/LICENSE)
-[![Patreon](https://img.shields.io/:support-patreon-orange.svg?style=flat)](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31)
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
 
