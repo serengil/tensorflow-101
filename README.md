@@ -226,6 +226,6 @@ Please cite tensorflow-101 in your publications if it helps your research. Here 
 }
 ```
 
-# Licence
+# License
 
 This repository is licensed under MIT license - see [`LICENSE`](https://github.com/serengil/tensorflow-101/blob/master/LICENSE) for more details
