@@ -217,12 +217,12 @@ There are many ways to support a project - starring⭐️ the GitHub repos is on
 Please cite tensorflow-101 in your publications if it helps your research. Here is an example BibTeX entry:
 
 ```BibTeX
-@misc{serengil2017tensorflow,
-  abstract = {TensorFlow 101: Introduction to Deep Learning for Python Within TensorFlow},
-  author={Serengil, Sefik Ilkin},
-  title={tensorflow-101},
-  url={https://github.com/serengil/tensorflow-101},
-  year={2017}
+@misc{serengil2021tensorflow,
+  abstract     = {TensorFlow 101: Introduction to Deep Learning for Python Within TensorFlow},
+  author       = {Serengil, Sefik Ilkin},
+  title        = {tensorflow-101},
+  howpublished = {https://github.com/serengil/tensorflow-101},
+  year         = {2021}
 }
 ```
 
