@@ -1,9 +1,12 @@
+# This code just uses numpy for array and matrix representation.
 import numpy as np
 
+# Define which operator you are going to use. This can be `and`, `or` or `xor`.
 operator = 'and'
 
 #----------------
 
+# `atributes` variable define input array and `labels`(output) array are selected base on the operator.
 atributes = np.array([ [0, 0], [0, 1], [1, 0], [1, 1]])
 
 if operator == 'and':
@@ -15,6 +18,7 @@ elif operator == 'xor':
 
 #----------------
 
+# `w` define weight of the perceptron,  `threshold` define a umbral, `alpha` is a learning rate, `epoch` is a number of process to train the model.
 w = [+9, +9] #initial random values for weights
 
 threshold = 5
@@ -24,6 +28,7 @@ epoch = 1000 #learning time
 
 print("learning rate: ", alpha,", threshold: ", threshold)
 
+# The main code where we train the model (model in this case is fit the weight values).
 for i in range(0, epoch):
 	print("epoch ", i+1)
 	global_delta = 0 #this variable is used to terminate the for loop if learning completed in early epoch
