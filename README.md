@@ -211,7 +211,13 @@ This repo might use some external sources. Notice that related tutorial links an
 
 # Support
 
-There are many ways to support a project - starring⭐️ the GitHub repos is one.
+There are many ways to support a project - starring⭐️ the GitHub repos is one 🙏
+
+You can also support this work on [Patreon](https://patreon.com/serengil)
+
+<a href="https://patreon.com/serengil">
+<img src="https://raw.githubusercontent.com/serengil/tensorflow-101/master/icons/patreon.png" width="30%" height="30%">
+</a>
 
 # Citation
 
