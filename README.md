@@ -2,7 +2,7 @@
 
 [![Stars](https://img.shields.io/github/stars/serengil/tensorflow-101)](https://github.com/serengil/tensorflow-101)
 [![License](http://img.shields.io/:license-MIT-green.svg?style=flat)](https://github.com/serengil/tensorflow-101/blob/master/LICENSE)
-[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dserengil%26type%3Dpatrons&style=flat)](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31)
+[![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dserengil%26type%3Dpatrons&style=flat)](https://www.patreon.com/serengil?repo=tensorflow101)
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
 
@@ -213,9 +213,9 @@ This repo might use some external sources. Notice that related tutorial links an
 
 There are many ways to support a project - starring⭐️ the GitHub repos is one 🙏
 
-You can also support this work on [Patreon](https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31)
+You can also support this work on [Patreon](https://www.patreon.com/serengil?repo=tensorflow101)
 
-<a href="https://www.patreon.com/bePatron?u=31795557&redirect_uri=https%3A%2F%2Fgithub.com%2Fserengil%2Ftensorflow%2D%31%30%31">
+<a href="https://www.patreon.com/serengil?repo=tensorflow101">
 <img src="https://raw.githubusercontent.com/serengil/tensorflow-101/master/icons/patreon.png" width="30%" height="30%">
 </a>
 
