@@ -3,7 +3,7 @@
 [![Stars](https://img.shields.io/github/stars/serengil/tensorflow-101)](https://github.com/serengil/tensorflow-101)
 [![License](http://img.shields.io/:license-MIT-green.svg?style=flat)](https://github.com/serengil/tensorflow-101/blob/master/LICENSE)
 [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dserengil%26type%3Dpatrons&style=flat)](https://www.patreon.com/serengil?repo=tensorflow101)
-[![Twitter](https://img.shields.io/twitter/follow/serengil?color=blue&logo=twitter&style=flat)](https://twitter.com/serengil)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/serengil?logo=GitHub&color=lightgray)](https://github.com/sponsors/serengil)
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
 
