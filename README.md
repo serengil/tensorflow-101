@@ -6,7 +6,7 @@
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/serengil?logo=GitHub&color=lightgray)](https://github.com/sponsors/serengil)
 
 [![Blog](https://img.shields.io/:blog-sefiks.com-blue.svg?style=flat&logo=wordpress)](https://sefiks.com)
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCKEKCFtCsvypj2x1Vd_WWXQ?logo=youtube&style=flat)](https://youtube.com/@sefiks)
+[![YouTube](https://img.shields.io/youtube/channel/subscribers/UCKEKCFtCsvypj2x1Vd_WWXQ?logo=youtube&style=flat)](https://www.youtube.com/channel/UCKEKCFtCsvypj2x1Vd_WWXQ?sub_confirmation=1)
 [![Twitter](https://img.shields.io/:follow-@serengil-blue.svg?style=flat&logo=twitter)](https://twitter.com/serengil)
 
 I have worked all my life in Machine Learning, and **I've never seen one algorithm knock over its benchmarks like Deep Learning** - Andrew Ng
