@@ -218,10 +218,14 @@ This repo might use some external sources. Notice that related tutorial links an
 
 There are many ways to support a project - starring⭐️ the GitHub repos is one 🙏
 
-You can also support this work on [Patreon](https://www.patreon.com/serengil?repo=tensorflow101)
+You can also support this work on [Patreon](https://www.patreon.com/serengil?repo=tensorflow101), [GitHub Sponsors](https://github.com/sponsors/serengil) or [Buy Me a Coffee](https://buymeacoffee.com/serengil).
 
 <a href="https://www.patreon.com/serengil?repo=tensorflow101">
 <img src="https://raw.githubusercontent.com/serengil/tensorflow-101/master/icons/patreon.png" width="30%" height="30%">
+</a>
+
+<a href="https://buymeacoffee.com/serengil">
+<img src="https://raw.githubusercontent.com/serengil/tensorflow-101/master/icons/bmc-button.png" width="25%" height="25%">
 </a>
 
 # Citation
